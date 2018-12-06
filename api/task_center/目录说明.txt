@@ -1,0 +1,2 @@
+task_center_fengtian_mainkw：负责给重点关键词的抓取服务器分配关键词和代理等
+task_center_fengtian：负责给非重点关键词的抓取服务器分配关键词和代理等

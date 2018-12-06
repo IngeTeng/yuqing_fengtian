@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf8'?>
+<chart caption='杰克曼--总体统计图' xAxisName='日期' yAxisName='文章总数' numberSuffix='篇' showValues='0'>
+<categories>
+<category label='2014-06-24' />
+<category label='2014-06-25' />
+</categories>
+<dataset seriesName='新闻'>
+<set value='0' />
+<set value='0' />
+</dataset>
+<dataset seriesName='论坛'>
+<set value='18' />
+<set value='0' />
+</dataset>
+<dataset seriesName='博客'>
+<set value='7' />
+<set value='0' />
+</dataset>
+<dataset seriesName='微博'>
+<set value='7' />
+<set value='0' />
+</dataset>
+<dataset seriesName='视频'>
+<set value='2' />
+<set value='0' />
+</dataset>
+</chart>

@@ -1,0 +1,300 @@
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>新大众帕萨特_搜索_网通社汽车</title>
+	<link rel="stylesheet" type="text/css" href="http://img.news18a.com/search/css/search.css">
+	<script type="text/javascript" src='http://img.news18a.com/js/jquery-1.7.2.min.js'></script>
+	<base target="_blank">
+</head>
+<body>
+	<div class="ina_search_top">
+	<div class="ina_search_top_con">
+		<p class='ina_search_left'>
+            <a href="http://auto.news18a.com/"><i><</i>返回网通社汽车首页</a>
+        </p>
+		<p>
+            <a href="http://www.news18a.com/home.html">关于网通社</a><span>|</span>
+            <a href="http://www.news18a.com/customers.html">合作媒体</a><span>|</span>
+            <a href="http://www.news18a.com/home.html">客户信息</a><span>|</span>
+            <a href="http://money.news18a.com">财经频道</a><span>|</span>
+            <a href="http://www.news18a.com/connect.html">联系我们</a><span>|</span>
+           <!--  <a href="http://auto.news18a.com/news/pay.html">网通社独家定制</a> -->
+        </p>
+	</div>
+</div>
+
+<script>
+(function (G,D,s,c,p) {
+c={//监测配置
+UA:"UA-wangtong-000001", //客户项目编号,由系统生成
+NO_FLS:1, 
+WITH_REF:1, 
+URL:'//img.news18a.com/js/iwt/iwt-min20181008.js'
+};
+G._iwt?G._iwt.track(c,p):(G._iwtTQ=G._iwtTQ || []).push([c,p]),!G._iwtLoading && lo();
+function lo(t) {
+G._iwtLoading=1;s=D.createElement("script");s.src=c.URL;
+t=D.getElementsByTagName("script");t=t[t.length-1];
+t.parentNode.insertBefore(s,t);
+}
+})(this,document);
+</script>
+
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?05a09ddbe3791e15915cd6f668418665";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?5f68d35796a9d15e8db73718b2262ccd";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+	<div class="ina_serach_input">
+		<div class="ina_silde_top">
+			<div class="ina_input_left">
+				<p><a href=""><img src="http://img.news18a.com/search/image/logo_03.jpg"></a><span>|</span><a href="">搜索</a></p>
+			</div>
+			<div class="ina_input_center">
+				<form action="" method="get" onsubmit='return false' id="formid">
+					<p><input type="text" class='search_text' value='新大众帕萨特' id='search_name' autocomplete="off"><button type='button' onclick="submitform('search_name');">搜索</button></p>
+										<ul class='ina_similar' id='ina_similar'>
+					
+					</ul>
+				</form>
+			</div>
+			<div class="ina_input_right">
+				<p><span class='ina_icon'></span><a href="http://auto.news18a.com/select_car/">高级选车功能</a></p>
+			</div>
+		</div>
+</div>
+
+<script type="text/javascript">
+	function submitform(_name){
+		var val = document.getElementById(_name).value;
+		var host = 'http://' + window.location.hostname;
+		if (val.length>0) {
+			var newUrl = host +'/search/index/'+val+'/';
+		}else{
+			var newUrl = host +'/search/';
+		}
+		
+		window.location.href = newUrl;
+	}
+
+	$(function(){
+		/* 文本框值改变时更新列表，判断键值，执行事件  */
+		var tipNum = 0;
+		$('.search_text').keyup(function(e){
+			var ev = e ? e : window.event;
+			var _id = $(this).attr('id'),
+				val = $(this).val(),
+				obj = $('#search_name'),
+				tip = $('#ina_similar');				
+			// 顶部
+			if( _id == 'search_name' ){										
+				if(e && e.keyCode==13){
+					submitform( 'search_name' );
+				}
+				if( e.keyCode == 38 || e.keyCode == 40 ){
+					if ( $('#ina_similar').is(':visible') ){
+						var max = tip.find('li').length;
+						if( e.keyCode == 38 ){ // 上键
+							tipNum--;
+							if( tipNum <= 0 ){
+								tipNum = max;
+							}
+						}
+						if( e.keyCode == 40 ){ // 下键
+							tipNum++;
+							if( tipNum > max ){
+								tipNum = 1;
+							}
+						}
+						var current = tip.find('li').eq( tipNum - 1 );
+						current.css({'background':'#ccc'}).siblings().css({'background':'#fff'});
+						obj.val( current.find('span').text() );
+					}
+				}
+				if ( e.keyCode != 38 && e.keyCode != 40 ){
+					keyword_guess(val);
+					tipNum = 0;
+				}
+
+			}else if( _id == 'search_nameBot' ){
+				if(e && e.keyCode==13){
+					submitform('search_nameBot');
+				}
+			}
+		})
+		
+
+		$('#search_name').on('focus',function(){
+			var val = $(this).val();
+			keyword_guess(val);
+		})
+		document.onclick = function (e) {
+		    e = e || window.event;
+		    var dom = e.srcElement || e.target;
+		    var objword = document.getElementById("ina_similar");
+		    if (objword != null) {
+		        if (dom.id != "ina_similar" && dom.id != "search_name" && document.getElementById("ina_similar").style.display == "block") {
+		            	document.getElementById("ina_similar").style.display = "none";
+		        }
+		    }
+		};
+		function keyword_guess(msg){
+			if (msg == '') {
+				return false;
+			}
+			$.ajax({
+				url:'/init.php?m=search&c=search&a=down_prompt',
+				type:'get',
+				cache: false,
+				data:{ keyword:msg },
+				success:function(mess){
+					if(mess != ''){
+	             		mess=eval("(" + mess + ")");
+	             		console.log(mess.isHaveData);
+	             		if (mess.isHaveData != 0) {
+
+				            var htmlstr='';
+				            console.log(mess);
+				            if( mess.top ){
+								if(mess.top.length>0){
+									$.each(mess.top, function (key, val) {
+										if(val && val.otherid!=null && val.name!=null && val.price!=null){
+											htmlstr+="<li><a href=\"/search/index/"+val.name+"/\" target=\"_self\"><span>"+val.name+'</span><i>'+val.price+'</i></a></li>';			
+										}
+									})
+					            }
+				            }
+				            if(mess.bottom.length>0){
+				               $.each(mess.bottom, function (key, val) {
+				               		if(val && val.otherid!=null && val.name!=null && val.price!=null){
+										htmlstr+="<li><a href=\"/"+val.otherid+"/\" target=\"_self\"><span>"+val.name+'</span><i>'+val.price+'</i></a></li>';
+									}
+								})
+				            }
+	                		document.getElementById('ina_similar').innerHTML=htmlstr;
+							$('.ina_similar').show();
+						}
+					}else{
+						$('.ina_similar').hide();
+					}
+				}
+			})
+		}
+
+
+	})
+	
+</script>
+
+	<div class="ina_tab_detial">
+		<div class="ina_tab_menu">
+	<div class="ina_silde">
+		<a  href="http://auto.news18a.com/search/index/新大众帕萨特/" target="_self">综述</a>
+		<a class="ina_cur" href="http://auto.news18a.com/search/news/新大众帕萨特/" target="_self">资讯</a>
+		<a  href="http://auto.news18a.com/search/vedio/新大众帕萨特/" target="_self">视频</a>
+		<a  href="http://auto.news18a.com/search/hangqing/新大众帕萨特/" target="_self">行情</a>
+		<a  href="http://auto.news18a.com/search/jiqu/新大众帕萨特/" target="_self">极趣</a>
+	</div>
+</div>		<div class="ina_silde">
+			<div class="ina_tab_con">
+				<!-- 资讯 -->
+				<div class="ina_tab_nr ina_message_con">
+					
+					<div class='ina_filtrate'>
+						<p>筛选栏目：</p>
+						<div class='ina_filtrate_menu'>
+							<a href="http://auto.news18a.com/search/news/新大众帕萨特/" class='ina_cur' target="_self">全部</a>
+							<a href="http://auto.news18a.com/search/news/newCar/新大众帕萨特/"  target="_self">新车</a>
+							<a href="http://auto.news18a.com/search/news/pingce/新大众帕萨特/"  target="_self">评测</a>
+							<a href="http://auto.news18a.com/search/news/daogou/新大众帕萨特/"  target="_self">导购</a>
+							<a href="http://auto.news18a.com/search/news/fangtan/新大众帕萨特/"  target="_self">访谈</a>
+							<a href="http://auto.news18a.com/search/news/useCar/新大众帕萨特/"  target="_self">用车</a>
+			                <a href="http://auto.news18a.com/search/news/essence/新大众帕萨特/"  target="_self">精选</a> 
+						</div>	               
+					</div>
+										<div class="ina_none_result">
+						<dl>
+							<dt><img src="http://img.news18a.com/search/image/none_03.png"></dt>
+							<dd>
+								<h2>对不起，没有找到 "<span class='ina_keycode'>新大众帕萨特</span>" 的相关结果</h2>
+								<p>网通社搜索建议您：</p>
+								<p>1、调整筛选条件重新搜索。</p>
+								<p>2、您还可以直接进入<a href="http://auto.news18a.com/select_car/">选车工具</a>，按条件选车辆。</p>
+							</dd>
+						</dl>
+					</div>
+										<div class="ina_page" id="show">
+				      				    </div>
+				</div>
+							</div>
+		</div>
+	</div>
+		<div class="ina_footer" style="position: fixed; bottom: 0;">
+	<p><a href="http://www.news18a.com/about.html">公司简介</a>&nbsp;|&nbsp;<a href="http://www.news18a.com/home.html">客户信息</a>&nbsp;|&nbsp;<a href="http://www.news18a.com/join.html">加入我们</a>&nbsp;|&nbsp;<a href="http://www.news18a.com/connect.html">联系我们</a>&nbsp;|&nbsp;<a href="http://www.news18a.com/customers.html">合作媒体</a></p>
+	<p>Copyright &copy; 2003-2017聚众网通(北京)科技有限公司版权所有，未经许可不得转载</p>
+	<p><a href="http://www.news18a.com/inaicp.html" target="_blank">经营许可证：京B2-20170585号</a>&nbsp;<a href="http://www.miibeian.gov.cn/" target="_blank">京ICP备13031706号-2</a>&nbsp;<a href="http://www.news18a.com/ridao.html"> 广播电视节目制作许可证06725号</a>&nbsp;<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802023428" target="_blank">京公网安备 11010802023428号</a></p>
+</div>	
+
+<script type="text/javascript">
+	$(function(){
+		// 跳转页码
+		//var _from = "";
+		//var is_from = _from == '' ? '' : '?ina_from=' +_from;
+		$('.ina_tz_input').keyup(function(e){
+			var ev = e ? e : window.event;
+			if(e && e.keyCode==13){
+	            var value=$(".ina_tz_input").val();
+	            page = 0;
+		        if(value=='')
+		        {
+		            return false;
+		        }
+		        if(value>page)
+		        {
+		            value=page;
+		        }
+	        	//var url = '/news/more_list_column_35_{$page}.html';
+	        	//var url='init.php?m=search&c=search&a=news&page='+value+'&keyword=新大众帕萨特&type=';
+	        	//alert(url);
+	        	var url="/search/news//新大众帕萨特/?page="+value;
+	        	window.location.href=url;
+	    	}
+		})
+
+
+
+	})
+
+
+	
+	
+</script>
+
+
+</body>
+</html>

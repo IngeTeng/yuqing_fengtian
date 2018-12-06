@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf8'?>
+<chart caption='刘铁男--分类统计图' xAxisName='日期' yAxisName='文章数' numberSuffix='篇'>
+<set label='新闻' value='4876' />
+<set label='论坛' value='725' />
+<set label='博客' value='2570' />
+<set label='微博' value='104' />
+<set label='视频' value='27' />
+</chart>

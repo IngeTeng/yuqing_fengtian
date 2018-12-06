@@ -1,0 +1,1266 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "//www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="//www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <link href="//s.autoimg.cn/sou/souPC/css/autosearch_20180731.css?a=619156" rel="stylesheet" type="text/css" />
+    
+    <script type="text/javascript" src="//s.autoimg.cn/sou/souPC/js/autosug.js?v7"></script>
+    <script type="text/javascript" src="//s.autoimg.cn/sou/souPC/js/tooltips_130501.js?m8" )"></script>
+    <script src="//s.autoimg.cn/as/static/js/jquery-1.7.2.min.js" type="text/javascript"></script>
+    <script src="//s.autoimg.cn/sou/souPC/js/autohttps_20171016.js" type="text/javascript"></script>
+    <script src="//x.autoimg.cn/com/co.ashx?path=|mall|web|pc|js|public|js|promotiontool_8803c.js" type="text/javascript"></script>
+    <script src="//x.autoimg.cn/bi/mda/ahas_head.min.js?v=20170612" async></script>
+    <meta name="viewport" content="width=device-width" />
+    <title>江淮轿卡_车家号搜索_汽车之家</title>
+</head>
+<body>
+    <style type="text/css">
+        .body {
+            font-family: "\5fae\8f6f\96c5\9ed1";
+        }
+
+        .caricon li a, div.hotcitybox, .mini_main em, .caricon li a em, .citypop .citypop-content .citypop-close i, .citypop-search, .citypop-ct .zdicon, .citypop-ct .ntextdicon, .frs, .mini_right i {
+            background: url(//www.autohome.com.cn/Images/index/headericonNew.png?v1) no-repeat;
+        }
+
+        .citypop, .dropdown, .topchadiv_box, .topchadiv_top, .moreli_active {
+            background: url(//www.autohome.com.cn/images/shadow_bg.png) repeat;
+        }
+
+        .clearfloat {
+            clear: both;
+            height: 0;
+            font-size: 1px;
+            line-height: 0;
+        }
+
+        .mini_right ul li.nopd {
+            padding: 0;
+        }
+
+        .minitop {
+            height: 26px;
+            line-height: 26px;
+            background-color: #f9f9f9;
+            border-bottom: solid 1px #efefef;
+            border-top: solid 1px #f9f9f9;
+            position: relative;
+            z-index: 11000;
+        }
+
+            .minitop a:link, .minitop a:visited, .citycon a.a1:link, .citycon a.a1:visited {
+                text-decoration: none;
+                outline: none;
+            }
+
+        .mini_main {
+            min-width: 976px;
+            height: 26px;
+            color: #9f9f9f;
+            text-align: left;
+            padding: 0 2px 0 12px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 220;
+            background-color: #f9f9f9;
+        }
+
+        .mini_left, .mini_right {
+            position: relative;
+        }
+
+        .mini_left {
+            float: left;
+            z-index: 30;
+        }
+
+        .mini_right {
+            float: right;
+            text-align: right;
+            z-index: 25;
+        }
+
+            .mini_left ul li, .mini_right ul li {
+                float: left;
+                position: relative;
+            }
+
+                .mini_left ul li span {
+                    padding: 0 5px;
+                }
+
+        .mini_left_logo {
+            display: inline-block;
+            padding-top: 4px;
+        }
+
+        .mini_right .frs {
+            float: right;
+            background-position: -335px 7px;
+            font-family: Arial,Helvetica,sans-serif;
+        }
+
+        .mini_right ul.frs-login {
+            background-image: none;
+            padding-right: 12px;
+        }
+
+            .mini_right ul.frs-login a {
+                padding: 0 2px;
+            }
+
+        .mini_right i {
+            display: inline-block;
+            width: 16px;
+            height: 15px;
+            float: left;
+            position: relative;
+            top: 6px;
+            top: 5px\9;
+        }
+
+        .mini_right .icon-more {
+            background-position: -320px -87px;
+            margin-right: 2px;
+        }
+
+        .mini_right li a:hover .icon-more, .moreli_active .icon-more {
+            background-position: -320px -108px;
+        }
+
+        .mini_right .icon-club {
+            background-position: -320px -34px;
+            margin-right: 5px;
+        }
+
+        .mini_right li a:hover .icon-club, .moreli_active .icon-club {
+            background-position: -320px -60px;
+        }
+
+        .moreli_title {
+            border-right: solid 1px #f9f9f9;
+            padding-left: 1px;
+        }
+
+        .moreli_active {
+            border: none;
+            padding-left: 0;
+        }
+
+            .moreli_active a {
+                border-left: solid 1px #ccd3e4;
+                border-right: solid 1px #ccd3e4;
+                background-color: #F9F9F9;
+            }
+
+                .moreli_active a:link, .moreli_active a:visited, .moreli_active a:hover {
+                    color: #d60000;
+                }
+
+        .mini_main .moreli_active em {
+            background-position: -240px -176px;
+        }
+
+        .mini_main em, .caricon li a em, .bbsli_title em {
+            display: inline-block;
+            width: 7px;
+            height: 4px;
+            font-size: 0;
+            background-position: -240px -170px;
+        }
+
+        .cityli_title a:hover em, .cityli_title span:hover em, .moreli_title:hover em, .caricon li a:hover em, .bbsli_title:hover em {
+            background-position: -240px -176px;
+        }
+
+        .mini_left ul li .cityli_title span {
+            padding: 0;
+        }
+
+        .cityli_title span, .cityli_title em {
+            float: left;
+            cursor: pointer;
+        }
+
+        .mini_main .moreli_title em {
+            position: relative;
+            top: 12px;
+            margin-left: 5px;
+        }
+
+        .caricon li a em {
+            margin-left: 5px;
+            position: relative;
+            bottom: 1px;
+        }
+
+        .dropdown {
+            width: 76px;
+            position: absolute;
+            left: -1px;
+            top: 43px;
+            padding: 0 2px 2px 2px;
+            display: none;
+            z-index: 10000;
+        }
+
+            .dropdown dl {
+                border: solid 1px #ccd3e3;
+                background-color: #fff;
+            }
+
+                .dropdown dl dd a {
+                    display: block;
+                    background: none;
+                    text-align: left;
+                    height: 27px;
+                    line-height: 27px;
+                    color: #666666;
+                    text-decoration: none;
+                    padding: 0 6px;
+                }
+
+                    .dropdown dl dd a:hover {
+                        background-color: #f1f5f8;
+                        color: #3b589a;
+                    }
+
+        .ahover em {
+            background-position: -756px -101px;
+        }
+
+        .cslbtt a {
+            margin-right: 8px;
+        }
+
+        .cityli, .moveli, .moreli, .bbsli {
+            position: relative;
+        }
+
+        .moreli_title, .bbsli_title {
+            position: relative;
+            z-index: 20;
+            text-align: left;
+        }
+
+            .moreli_title i, .moreli_title span, .moreli_title em {
+                float: left;
+                cursor: pointer;
+            }
+
+                .moreli_title span.info {
+                    display: inline-block;
+                    height: 11px;
+                    padding: 2px 3px;
+                    text-align: center;
+                    line-height: 11px;
+                    background-color: #fe6600;
+                    border-radius: 2px;
+                    color: #fff;
+                    position: relative;
+                    top: 5px;
+                    margin: 0 1px 0 5px;
+                    font-weight: bold;
+                }
+
+        .cityli_title {
+            width: 38px;
+            padding-left: 8px;
+            z-index: 30;
+            position: relative;
+            text-align: left;
+        }
+
+        .mini_main .cityli_title em {
+            position: relative;
+            top: 11px;
+            margin-left: 5px;
+        }
+
+        .bbsli_title {
+            width: 62px;
+            padding-left: 3px;
+        }
+
+            .cityli_title a, .moreli_title a, .bbsli_title a {
+                display: block;
+                height: 26px;
+            }
+
+        .moreli_title a {
+            display: inline-block;
+            padding: 0 15px;
+        }
+
+        .topchadiv {
+            position: absolute;
+            right: -2px;
+            top: 27px;
+            z-index: 10;
+            display: none;
+        }
+
+        .topchadiv-dw02, .topchadiv-dw03 {
+            _right: -3px;
+        }
+
+        .topchadiv_top, .topchadiv_box {
+            padding: 0 2px 2px 0;
+            clear: both;
+        }
+
+        .topchadiv_top {
+            width: 4px;
+            padding-bottom: 0;
+            position: absolute;
+            right: 0;
+            top: -27px;
+            background-color: #fafafa;
+        }
+
+        .topchadiv_top_con {
+            width: 2px;
+            height: 27px;
+        }
+
+        .topchadiv_box {
+            position: relative;
+            top: -1px;
+        }
+
+        .topchadiv-dw01 .topchadiv_box {
+            width: 110px;
+        }
+
+        .topchadiv-dw02 .topchadiv_box {
+            min-width: 130px;
+            overflow: visible;
+            _width: 130px;
+        }
+
+        .topchadiv-dw03 .topchadiv_box {
+            width: 210px;
+        }
+
+        .topchadiv_con {
+            border: solid 1px #ccd3e4;
+            background-color: #FFFFFF;
+            line-height: 20px;
+            text-align: left;
+            padding: 5px 0;
+        }
+
+            .topchadiv_con a {
+                display: block;
+                height: 27px;
+                line-height: 27px;
+                white-space: nowrap;
+                padding: 0 15px;
+                overflow: hidden;
+            }
+
+                .topchadiv_con a:link, .topchadiv_con a:visited, .topchadiv_con a:hover {
+                    color: #666666;
+                }
+
+                .topchadiv_con a span {
+                    display: inline-block;
+                }
+
+                    .topchadiv_con a span.cn {
+                        color: #666666;
+                        float: left;
+                    }
+
+                    .topchadiv_con a span.ck {
+                        cursor: pointer;
+                        float: right;
+                    }
+
+        .mini_right .frs li .topchadiv_con a:hover {
+            color: #3b5998;
+            background-color: #f9f9f9;
+        }
+
+        .linedc {
+            border-top: dotted 1px #cecece;
+            height: 1px;
+            clear: both;
+            font-size: 0;
+            margin: 5px;
+            line-height: 0;
+        }
+
+        .topchadiv-dw02 .topchadiv_con a {
+            min-width: 120px;
+            overflow: visible;
+        }
+
+        .topchadiv-dw03 .topchadiv_con a {
+            padding: 0 10px;
+        }
+
+            .topchadiv-dw03 .topchadiv_con a:link, .topchadiv-dw03 .topchadiv_con a:visited, .topchadiv-dw03 .topchadiv_con a:hover {
+                color: #3b5998;
+            }
+
+        .nav_box dd a:hover, a.reda:link, a.reda:visited, a.reda:hover, a.reda2:link, a.reda2:visited, .nav_box dd .nav_text a:hover {
+            color: #d60000;
+        }
+
+        .nav_box dd a:link, .nav_box dd a:visited {
+            color: #ffffff;
+            text-decoration: none;
+        }
+    </style>
+    <!--迷你导航开始-->
+
+    <div class="minitop">
+        <div class="mini_main">
+            <div class="mini_left">
+                <ul>
+                    <li>
+                        <a href="//www.autohome.com.cn/" target="_self">&lt;&lt; 汽车之家首页</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="mini_right">
+                <ul class="frs ">
+                    <li class="moreli">
+                        <div class="moreli_title">
+                            <a href="javascript:void(0);" target="_self">
+                                <i class="icon-more"></i>
+                                <span>更多应用</span>
+                                <em></em>
+                            </a>
+                        </div>
+                        <!--更多切换层开始-->
+                        <div class="topchadiv topchadiv-dw01">
+                            <div class="topchadiv_top">
+                                <div class="topchadiv_top_con"></div>
+                            </div>
+                            <div class="topchadiv_box">
+                                <div class="topchadiv_con">
+                                    <a href="//j.autohome.com.cn/pcplatform/staticpage/loan/index.html" target="_blank">购车计算器</a>
+                                    <a href="//www.autohome.com.cn/channel2/MaintenanceCars/Violation.aspx" target="_blank">违章查询</a>
+                                    <a href="//car.autohome.com.cn/zhaoche/jiage/" target="_blank">按价格找车</a>
+                                    <a href="//car.autohome.com.cn/zhaoche/pinpai/" target="_blank">按品牌找车</a>
+                                    <div class="linedc"></div>
+                                    <a href="//ics.autohome.com.cn/#pvareaid=104317" target="_blank">i车商</a>
+                                    <a href="//www.che168.com/" target="_blank">二手车之家</a>
+                                    <a href="//www.pcpop.com" target="_blank">泡泡网</a>
+                                    <a href="//www.it168.com" target="_blank">IT168</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--更多切换层结束-->
+                    </li>
+                </ul>
+                <ul class="frs" id="clubInfo">
+                    <li>
+                        
+                        <div class="topchadiv topchadiv-dw02">
+                            <div class="topchadiv_top"><div class="topchadiv_top_con"></div></div>
+                            <div class="topchadiv_box"><div class="topchadiv_con" id="bbsList">加载中...</div></div>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="frs" id="homeInfo">
+                    <li>
+                        <div class="moreli_title">
+                            <a href="javascript:void(0);" target="_self">
+                                <span>消息</span>
+                                <span class="" id="InfoId"></span>
+                                <em></em>
+                            </a>
+                        </div>
+                        <!--更多切换层开始-->
+                        <div class="topchadiv topchadiv-dw03">
+                            <div class="topchadiv_top">
+                                <div class="topchadiv_top_con"></div>
+                            </div>
+                            <div class="topchadiv_box">
+                                <div class="topchadiv_con" id="dataInfo"></div>
+                            </div>
+                        </div>
+                        <!--更多切换层结束-->
+                    </li>
+                </ul>
+                <ul class="frs frs-login" id="login"></ul>
+            </div>
+        </div>
+    </div>
+    <!--迷你导航结束-->
+
+
+    <script type="text/javascript">
+        (function (window, undefined) { var auto = (function () { var document = window.document; var auto = function (selector) { return new auto.fn.init(selector) }; auto.fn = auto.prototype = { elem: null, init: function (selector) { this.length = 1; this[0] = "string" == typeof selector ? document.getElementById(selector) : selector; this.elem = this[0] } }; auto.extend = auto.fn.extend = function () { var target = arguments[0] || {}, i = 1, length = arguments.length, deep = false, options; if (typeof target === "boolean") { deep = target; target = arguments[1] || {}; i = 2 }; if (typeof target !== "object" && !typeof target === "function") target = {}; if (length == i) { target = this; --i }; for (; i < length; i++) { if ((options = arguments[i]) != null) { for (var name in options) { var src = target[name], copy = options[name]; if (target === copy) { continue }; if (deep && copy && typeof copy === "object" && !copy.nodeType) { target[name] = auto.extend(deep, src || (copy.length != null ? [] : {}), copy) } else { if (copy !== undefined) { target[name] = copy } } } } }; return target }; auto.fn.init.prototype = auto.fn; return auto })(); auto.extend({ isArray: function (o) { return Object.prototype.toString.call(o) == "[object Array]" }, isMouseLeaveOrEnter: function (e, handler) { if (e.type !== 'mouseout' && e.type !== 'mouseover') { return false }; var reltg = e.relatedTarget ? e.relatedTarget : (e.type === 'mouseout' ? e.toElement : e.fromElement); while (reltg && reltg !== handler) { reltg = reltg.parentNode }; return (reltg !== handler) }, ready: function (fn) { document.onreadystatechange = function () { if (document.readyState === "complete") fn() } }, cookie: { set: function (name, value, option) { var str = name + '=' + encodeURIComponent(value); if (option) { if (option.expireHours) { var d = new Date(); d.setTime(d.getTime() + option.expireHours * 3600 * 1000); str += '; expires=' + d.toGMTString() }; if (option.path) str += '; path=' + option.path; else str += '; path=/'; if (option.domain) str += '; domain=' + option.domain; if (option.secure) str += '; true' }; document.cookie = str }, get: function (name, defval) { var nameEQ = name + "="; var ca = document.cookie.split(';'); for (var i = 0; i < ca.length; i++) { var c = ca[i]; while (c.charAt(0) == ' ') c = c.substring(1, c.length); if (c.indexOf(nameEQ) == 0) return decodeURIComponent(c.substring(nameEQ.length, c.length)) }; return typeof defval == "undefined" ? null : defval }, del: function (name) { var exp = new Date(); exp.setTime(exp.getTime() - 1); var cval = this.get(name); if (cval != null) document.cookie = name + "=" + cval + ";expires=" + exp.toGMTString() } }, jsLoad: function () { var scr, fn, args = [], length = arguments.length; if (length == 1) { target = arguments[0] || {}; if (typeof target == "object") { src = target.url; fn = target.fn; args = target.args } } else { src = arguments[0]; fn = arguments[1]; for (var i = 0; i < length - 2; i++) { args[i] = arguments[i + 2] } }; s = document.createElement("script"); s.setAttribute("type", "text/javascript"); s.setAttribute("src", src); s.onload = s.onreadystatechange = function () { if (!s.readyState || s.readyState == "loaded" || s.readyState == "complete") { if (typeof fn == "function") fn.apply(this, args); s.onload = s.onreadystatechange = null; try { s.parentNode && s.parentNode.removeChild(s) } catch (e) { } } }; document.getElementsByTagName("head")[0].appendChild(s) }, waitTime: function (fn, s) { var waitInterval, args = [], length = arguments.length; if (length > 2) { if (length == 3) { if (auto.isArray(arguments[2])) { args = arguments[2] } } else { for (var i = 0; i < length - 2; i++) { args[i] = arguments[i + 2] } } }; clearTimeout(waitInterval); waitInterval = window.setTimeout(function () { fn.apply(this, args) }, s) }, binds: function (target, eventName, handler, args) { var eventHandler = handler; if (args) { eventHander = function (e) { handler.call(args, e) } }; if (window.addEventListener) { if (eventName.substring(0, 2) == "on") eventName = eventName.substring(2, eventName.length); target.addEventListener(eventName, eventHandler, false) } else if (window.attachEvent) { if (eventName.substring(0, 2) != "on") eventName = "on" + eventName; target.attachEvent(eventName, eventHandler) } }, mouseHover: function (f, c, s) { var fn, args = [], length = arguments.length, fo = auto(f), co = auto(c); if (fo == null || co == null) return; fn = length > 3 ? arguments[3] : function () { }; this.binds(fo[0], "onmouseover", function () { fn(); s == 0 ? co.show() : auto.waitTime(function () { co.show() }, s) }); this.binds(fo[0], "onmouseout", function () { s == 0 ? co.hide() : auto.waitTime(function () { co.hide() }, s) }) }, mouseClick: function (f, c, ch, s) { var fn, args = [], length = arguments.length, fo = auto(f), co = auto(c), cho = auto(ch); if (fo == null || co == null || cho == null) return; fn = length > 4 ? arguments[4] : function () { }; this.binds(cho[0], "onclick", function () { fn(); s == 0 ? co.target() : auto.waitTime(function () { co.target() }, s) }); this.binds(fo[0], "onmouseout", function (evt) { if (auto.isMouseLeaveOrEnter(evt, fo[0])) { s == 0 ? co.hide() : auto.waitTime(function () { co.hide() }, s) } }) } }); auto.fn.extend({ show: function () { this.elem.style.display = "block" }, hide: function () { this.elem.style.display = "none" }, target: function () { this.elem.style.display == "" || this.elem.style.display == "block" ? this.hide() : this.show() }, html: function (val) { if (val) { this.elem.innerHTML = val } else { return this.elem.innerHTML } }, attr: function (name) { var val = arguments[1]; if (val) { this.elem.attributes(name, val) } else { return this.elem.getAttribute(name) } }, css: function (val) { if (val) { this.elem.className = val } else { return this.elem.className } }, click: function (fn) { this.elem.onclick = function () { fn() } }, href: function (url) { if (url) { this.elem.href = url } else { return this.elem.href } } }); auto.extend({ home: { waitTime: [0, 300, 250], homeUrl: "//www.autohome.com.cn/", clubUrl: "//club.autohome.com.cn/", clubServUrl: "//club.service.autohome.com.cn/", newServUrl: "", nowUrl: encodeURIComponent(location.href), ocid: auto.cookie.get("cityId") ? parseInt(auto.cookie.get("cityId")) : 0, ccid: auto.cookie.get("cookieCityId") ? parseInt(auto.cookie.get("cookieCityId")) : 0, areaid: parseInt(auto.cookie.get("area")) ? parseInt(auto.cookie.get("area")) : 0, cid: auto.cookie.get("cookieCityId") == null || auto.cookie.get("cookieCityId") == 0 ? (auto.cookie.get("area") ? parseInt(auto.cookie.get("area") / 100) * 100 : 0) : parseInt(auto.cookie.get("cookieCityId")), getUserArea: function (cid) { }, areaCookie: function () { var r = true; if (typeof arguments[0] == "boolean") { r = arguments[0] }; expire = arguments[1] ? arguments[1] : { expireHours: 36000 * 24, domain: ".autohome.com.cn" }; this.set = function (cityName, oldCityId, newCityId) { auto.cookie.del("cityId"); auto.cookie.del("cookieCityId"); auto.cookie.set("cityId", oldCityId, expire); auto.cookie.set("cookieCityId", newCityId, expire); auto("hidcid")[0].value = newCityId; if (r) { window.location.reload() } else { changArea(newCityId); auto.home.getUserArea(newCityId); auto("changediv").hide(); auto("changediv").html(GetCityHtml(auto("hidcid")[0].value)) } } } } }); window.auto = auto })(window); Function.prototype.bind = function (bindObj, args) { var _self = this; return function () { return _self.apply(bindObj, [].concat(args)) } }; function readCookie(name, defauleValue) { var nameEQ = name + "="; var ca = document.cookie.split(';'); for (var i = 0; i < ca.length; i++) { var c = ca[i]; while (c.charAt(0) == ' ') c = c.substring(1, c.length); if (c.indexOf(nameEQ) == 0) return decodeURIComponent(c.substring(nameEQ.length, c.length)) }; return typeof defauleValue != "undefined" ? defauleValue : null }; function AutohomeJsLoad(args) { var s = document.createElement("script"); s.setAttribute("type", "text/javascript"); s.setAttribute("src", args.url); s.onload = s.onreadystatechange = function () { if (!this.readyState || this.readyState == "loaded" || this.readyState == "complete") { if (typeof args.callBack == "function") args.callBack(args.args); s.onload = s.onreadystatechange = null; try { s.parentNode && s.parentNode.removeChild(s) } catch (e) { } } }; document.getElementsByTagName("head")[0].appendChild(s) }; Function.prototype.bind = function (bindObj, args) { var _self = this; return function () { return _self.apply(bindObj, [].concat(args)) } }; function AutoUserFct() { this.init() }; AutoUserFct.prototype = { logUrl: "//account.autohome.com.cn/?backurl=" + auto.home.nowUrl + '%26en%3Dg', userUrl: "//i.autohome.com.cn", regUrl: "//account.autohome.com.cn/register?backurl=" + auto.home.nowUrl + '%26en%3Dg', upgradeUrl: "//account.autohome.com.cn/Upgrade?backurl=" + auto.home.nowUrl + '%26en%3Dg', isLogIn: false, UC: null, UID: null, UP: null, UN: null, clubUserShow: null, isLoadOver: false, logoffArray: [], loginArray: [], LoginDIV: document.getElementById("login"), isNeedAddCookie: function () { var tempClubUserShow = readCookie("clubUserShow"); if (tempClubUserShow == null) { return true } else { return false } }, isShowUserHeader: function () { var tempClubUserShow = readCookie("clubUserShow"); if (tempClubUserShow != null) { this.clubUserShow = tempClubUserShow.split("|"); this.UN = this.clubUserShow[3]; this.UP = parseInt(this.clubUserShow[2]); this.UID = this.clubUserShow[0]; return true } else { return false } }, init: function () { this.isLoadOver = false; window.onfocus = openFun; window.onblur = closeFun; if (readCookie("clubUserShow") != null) { this.isLogIn = true; this.showPageHeader(); if (this.isNeedAddCookie()) { AutohomeJsLoad({ url: "//account.autohome.com.cn/addcookie/CookieRepair", callBack: function () { }.bind(this, []) }) } else { } } else { this.showPageHeader() } }, getCookieClubList: function () { if (readCookie("historybbsName4") != null) { var historybbs = readCookie("historybbsName4"); var historystr = ''; html = ""; if (historybbs.indexOf(",") > 0) { historystr = historybbs.split(","); for (var i = historystr.length; i > (historystr.length > 7 ? (historystr.length - 7) : 0); i--) { html += "<a href=\"" + auto.home.clubUrl + "bbs/forum-" + historystr[i - 1].split("|")[0] + "-1.html?pvareaid=101646\" target=\"_blank\">" + historystr[i - 1].split("|")[1] + "论坛</a>" } } else { historystr = historybbs.split("|"); html += "<a href=\"" + auto.home.clubUrl + "bbs/forum-" + historystr[0] + "-1.html?pvareaid=101646\" target=\"_blank\">" + historystr[1] + "论坛</a>" } auto("bbsList").html(html); auto("clubInfo").show() } else { auto("clubInfo").hide() } }, getHomeList: function () { AutohomeJsLoad({ url: '//msg.autohome.com.cn/clubalert?callback=jsonpCallbackInfo&uid=' + readCookie("clubUserShow").split("|")[0] + "&timestamp=" + Math.random(), callBack: function () { } }) }, showPageHeader: function () { if (!this.isShowUserHeader()) { htmlMain = "<li><div class=\"moreli_title\">您好！请&nbsp;<a href=\"" + this.logUrl + "\" target=\"_self\">登录</a>&nbsp;或&nbsp;<a href=\"" + this.regUrl + "\" target=\"_self\">注册</a></div></li>"; this.getCookieClubList(); auto("homeInfo").hide() } else { htmlMain = "<li><div class=\"moreli_title\">您好！<a href=\"" + this.userUrl + "\" target=\"_blank\" class=\"reda\">" + this.UN + "</a>&nbsp;<a href=\"javascript:AutohomeUserInfo.logoff()\" target=\"_self\">退出</a></div></li>"; this.getHomeList(); auto("clubInfo").show(); auto("homeInfo").show() } this.onlogin(); this.LoginDIV.innerHTML = htmlMain }, logoff: function () { this.isLogIn = false; this.isLoadOver = false; window.clearInterval(clearIntervar); AutohomeJsLoad({ url: "//account.autohome.com.cn/login/logoutjson?backvar=autologinout&timestamp=" + Math.random(), callBack: function () { this.logoffHTML(); this.onlogoff(); this.getCookieClubList(); auto("homeInfo").hide() }.bind(this, []) }); AutohomeJsLoad({ url: "//account.che168.com/login/logoutjson?backvar=cheloginout&timestamp=" + Math.random(), callBack: function () { }.bind(this, []) }) }, logoffHTML: function () { this.isLogIn = false; this.isLoadOver = true; this.LoginDIV.innerHTML = "<li><div class=\"moreli_title\">您好！请&nbsp;<a href=\"" + this.logUrl + "\" target=\"_self\">登录</a>&nbsp;或&nbsp;<a href=\"" + this.regUrl + "\" target=\"_self\">注册</a></div></li>" }, onlogoff: function () { for (var i = 0, length = this.logoffArray.length; i < length; i++) { if (typeof this.logoffArray[i] == "function") try { this.logoffArray[i]() } catch (err) { } } }, onlogin: function () { this.isLoadOver = true; for (var i = 0, length = this.loginArray.length; i < length; i++) { if (typeof this.loginArray[i] == "function") try { this.loginArray[i]() } catch (err) { } } }, onloginAdd: function (fun) { if (typeof fun == "function" && this.isLoadOver) { try { fun() } catch (err) { } } this.loginArray.push(fun) }, onlogoffAdd: function (fun) { if (typeof fun == "function" && this.isLoadOver) { try { fun() } catch (err) { } } this.logoffArray.push(fun) } }; var AutohomeUserInfo = new AutoUserFct(); function jsonpCallbackInfo(data) { var html = "", temp = ""; data.NewReply > 0 ? (data.NewReply > 99 ? html += "<a href=\"//i.autohome.com.cn/receivereply/?pvareaid=101298\" target=\"_blank\"><span class=\"cn\">99+条新论坛回复</span><span class=\"ck\">查看论坛回复</span></a>" : html += "<a href=\"//i.autohome.com.cn/receivereply/?pvareaid=101298\" target=\"_blank\"><span class=\"cn\">" + data.NewReply + "条新论坛回复</span><span class=\"ck\">查看论坛回复</span></a>") : temp += "<a href=\"//i.autohome.com.cn/receivereply/?pvareaid=101606\" target=\"_blank\">查看论坛回复</a>"; data.commentreply > 0 ? (data.commentreply > 99 ? html += "<a href=\"//i.autohome.com.cn/inbox/?pvareaid=101482\" target=\"_blank\"><span class=\"cn\">99+条新评论回复</span><span class=\"ck\">查看评论回复</span></a>" : html += "<a href=\"//i.autohome.com.cn/inbox/?pvareaid=101482\" target=\"_blank\"><span class=\"cn\">" + data.commentreply + "条新评论回复</span><span class=\"ck\">查看评论回复</span></a>") : temp += "<a href=\"//i.autohome.com.cn/inbox/?pvareaid=101607\" target=\"_blank\">查看评论回复</a>"; data.NewComment > 0 ? (data.NewComment > 99 ? html += "<a href=\"//i.autohome.com.cn/club/record_comment/?pvareaid=101299\" target=\"_blank\"><span class=\"cn\">99+条新话说评论</span><span class=\"ck\">查看话说评论</span></a>" : html += "<a href=\"//i.autohome.com.cn/club/record_comment/?pvareaid=101299\" target=\"_blank\"><span class=\"cn\">" + data.NewComment + "条新话说评论</span><span class=\"ck\">查看话说评论</span></a>") : temp += "<a href=\"//i.autohome.com.cn/club/record_comment/?pvareaid=101608\" target=\"_blank\">查看话说评论</a>"; data.NewLetter > 0 ? (data.NewLetter > 99 ? html += "<a href=\"//i.autohome.com.cn/club/message/?pvareaid=101300\" target=\"_blank\"><span class=\"cn\">99+条新私信</span><span class=\"ck\">查看私信</span></a>" : html += "<a href=\"//i.autohome.com.cn/club/message/?pvareaid=101300\" target=\"_blank\"><span class=\"cn\">" + data.NewLetter + "条新私信</span><span class=\"ck\">查看私信</span></a>") : temp += "<a href=\"//i.autohome.com.cn/club/message/?pvareaid=101609\" target=\"_blank\">查看私信</a>"; data.NewNotice > 0 ? (data.NewNotice > 99 ? html += "<a href=\"//i.autohome.com.cn/club/notice/?pvareaid=101301\" target=\"_blank\"><span class=\"cn\">99+条新通知</span><span class=\"ck\">查看通知</span></a>" : html += "<a href=\"//i.autohome.com.cn/club/notice/?pvareaid=101301\" target=\"_blank\"><span class=\"cn\">" + data.NewNotice + "条新通知</span><span class=\"ck\">查看通知</span></a>") : temp += "<a href=\"//i.autohome.com.cn/club/notice/?pvareaid=101610\" target=\"_blank\">查看通知</a>"; data.NewFollowers > 0 ? (data.NewFollowers > 99 ? html += "<a href=\"//i.autohome.com.cn/club/follower/?pvareaid=101297\" target=\"_blank\"><span class=\"cn\">99+个新粉丝</span><span class=\"ck\">查看粉丝</span></a>" : html += "<a href=\"//i.autohome.com.cn/club/follower/?pvareaid=101297\" target=\"_blank\"><span class=\"cn\">" + data.NewFollowers + "个新粉丝</span><span class=\"ck\">查看粉丝</span></a>") : temp += "<a href=\"//i.autohome.com.cn/club/follower/?pvareaid=101611\" target=\"_blank\">查看粉丝</a>"; if (data.order != null) { data.order > 0 ? (data.order > 99 ? html += "<a href=\"//i.autohome.com.cn/club/orderlist/?pvareaid=101548\" target=\"_blank\"><span class=\"cn\">99+条新订单</span><span class=\"ck\">查看订单</span></a>" : html += "<a href=\"//i.autohome.com.cn/orderlist/?pvareaid=101548\" target=\"_blank\"><span class=\"cn\">" + data.order + "条新订单</span><span class=\"ck\">查看订单</span></a>") : temp += "<a href=\"//i.autohome.com.cn/orderlist/?pvareaid=101612\" target=\"_blank\">查看订单</a>" } else { temp += "<a href=\"//i.autohome.com.cn/orderlist/?pvareaid=101612\" target=\"_blank\">查看订单</a>" } var a = ""; if (html.length > 0 && temp.length > 0) { a = html + "<div class=\"linedc\"></div>" + temp } else if (temp.length == 0) { a = html } else if (html.length == 0) { a = temp } auto("dataInfo").html(a); var count = data.NewLetter + data.NewReply + data.NewComment + data.NewNotice + data.NewFollowers + data.commentreply + (data.order == null ? 0 : data.order); if (count > 0) { if (count > 99) { auto("InfoId").css("info"); document.getElementById("InfoId").innerHTML = "99+"; auto("InfoId").show() } else { auto("InfoId").css("info"); auto("InfoId").html(count); auto("InfoId").show() } } else { auto("InfoId").hide() } }; function addFavorite(url, title) { var ua = navigator.userAgent.toLowerCase(); if (ua.indexOf("msie 8") > -1) { try { external.AddToFavoritesBar(url, title) } catch (e) { alert("您的浏览器不支持此功能，请使用快捷键 Ctrl+D 手动加入收藏夹") } } else { try { window.external.AddFavorite(url, title) } catch (e) { try { window.sidebar.addPanel(title, url, "") } catch (e) { alert("您的浏览器不支持此功能，请使用快捷键 Ctrl+D 手动加入收藏夹") } } } }; var clearIntervar = null; function openFun() { if (AutohomeUserInfo.isLogIn) { AutohomeUserInfo.init(); clearIntervar = setInterval("AutohomeUserInfo.getHomeList()", 15000) } }; function closeFun() { if (AutohomeUserInfo.isLogIn) { window.clearInterval(clearIntervar) } };
+    </script>
+    <script type="text/javascript">
+        (function (win) { var doc = win.document, navSelect = byClass('moreli_title', null, 'div'), nodeCache = [], len = navSelect.length, i = len - 1; function byClass(name, content, tag) { var arr = [], nodes = (content || doc).getElementsByTagName((tag || '*')), len = nodes.length, pattern = new RegExp("(\\s|^)" + name + "($|\\s)"), i = 0; for (; i < len; i++) pattern.test(nodes[i].className) && arr.push(nodes[i]); return arr }; function addEvent(elem, type, fn) { elem.addEventListener ? elem.addEventListener(type, fn, false) : elem.attachEvent('on' + type, fn) }; function hasClass(elem, name) { var className = ' ' + name + ' '; if ((' ' + elem.className + ' ').replace(/[\n\t]/g, ' ').indexOf(className) > -1) return true; return false }; function addClass(elem, name) { !hasClass(elem, name) && (elem.className += (elem.className ? ' ' : '') + name) }; function removeClass(elem, name) { hasClass(elem, name) && (elem.className = elem.className.replace(name, '')) }; function getSelect(elem) { var o = null, n = elem.nextSibling; while (n) { if (n.nodeType === 1 && n.className && n.className.indexOf('topchadiv') != -1) { o = n; break } n = n.nextSibling }; return o }; for (; i > -1; i--) { (function (i) { addEvent(navSelect[i], 'mouseover', function () { navSelect[i].timer && clearTimeout(navSelect[i].timer); var s; if (nodeCache[i]) { s = nodeCache[i] } else { s = nodeCache[i] = getSelect(navSelect[i]); if (s) { addEvent(s, 'mouseover', function () { navSelect[i].timer && clearTimeout(navSelect[i].timer) }); addEvent(s, 'mouseout', function () { navSelect[i].timer = setTimeout(function () { s && (s.style.display = 'none', removeClass(navSelect[i], 'moreli_active')) }, 50) }) } } if (s) { s.style.display = 'block'; addClass(navSelect[i], 'moreli_active') } }); addEvent(navSelect[i], 'mouseout', function () { var s; if (nodeCache[i]) s = nodeCache[i]; else s = nodeCache[i] = getSelect(navSelect[i]); navSelect[i].timer = setTimeout(function () { s && (s.style.display = 'none', removeClass(navSelect[i], 'moreli_active')) }, 50) }) })(i) } })(window);
+    </script>
+
+    <!--头部区域开始-->
+    <div class="ss-header">
+        <div class="ss-logo"><a title="到汽车之家搜索首页" href="/"><img alt="到汽车之家搜索首页" src="//s.autoimg.cn/sou/souPC/Images/logo_ss_130402.png" )" /></a></div>
+        <div class="ss-con">
+            <div class="ss-box">
+                <form method="get" action="?" target="_self" accept-charset="gb2312" onsubmit="document.charset='gb2312'" id="souform">
+                    <div id="soudiv" class="searchbar">
+                        <input type="text" class="txt-search" name="q" id="q" autocomplete="off" value="江淮轿卡" onkeypress="" />
+                        <input type="hidden" id="pvareaid" name="pvareaid" autocomplete="off" value="100834" />
+                        <input type="hidden" id="entry" name="entry" autocomplete="off" value="116" />
+                        <input type="hidden" id="pkw" name="pq" value="江淮轿卡">
+                        <input type="hidden" id="ptime" name="pt" value="636788566502259448">
+                    </div>
+                    <a href="javascript:void(0);" onclick="document.getElementById('souform').submit(); return false;" class="btn-search">搜 索</a>
+                    <!--联想词-->
+                    <div class="search-pop" style="display: none;" id="autocomplateTip"></div>
+                    <!--end联想词-->
+                </form>
+            </div>
+            <ul class="details-ss-nav" id="pindao">
+                
+    <li><a href='zonghe?q=%bd%ad%bb%b4%bd%ce%bf%a8&entry=42&error=0'>综合</a></li><li><a href='luntan?q=%bd%ad%bb%b4%bd%ce%bf%a8&entry=44&error=0'>论坛</a></li><li><a href='wenzhang?q=%bd%ad%bb%b4%bd%ce%bf%a8&entry=43&error=0'>文章</a></li><li><a href='shipin?q=%bd%ad%bb%b4%bd%ce%bf%a8&entry=45&error=0'>视频</a></li><li><a href='hangqing?q=%bd%ad%bb%b4%bd%ce%bf%a8&entry=46&error=0'>行情</a></li><li><a href='zhidao?q=%bd%ad%bb%b4%bd%ce%bf%a8&entry=90&error=0'>问答</a></li>
+
+
+            </ul>
+        </div>
+
+    </div>
+    <!--头部区域end-->
+    <!--内容区域开始-->
+    <div class="ss-content" id="content">
+        <!--右侧end-->
+        <div class="right-con">
+            <!--中间结果开始-->
+            <div class="result-list">
+                
+<div class="car-screen fn-clear">
+        <span class="car-term" onclick="clickopendiv()" ><a href="javascript:void(0)"><i class="icon-term"></i><span class="fn-right" >筛选条件</span></a></span>
+        <span id="searchcount">找到约7条结果</span>
+     	<ul id="screenul" style="display:none;">
+            <li id="handsortli" onclick="clickliSelect(1)"><a href="javascript:void(0)" ><span class="fn-left" id="sortsp">最新发布</span><i class="icon-arrow" id="sorti"></i></a>
+             <div class="pop pop01" id="sortli" style="display:none;">
+               <div class="pop-content">
+                   <dl class="ullist">
+                            <dd><a href="youchuang?q=%bd%ad%bb%b4%bd%ce%bf%a8&amp;class=0&amp;sort=Relevance&amp;pvareaid=100834&amp;entry=116&amp;error=0">最相关</a></dd>                             <dd class="selected"><span>最新发布</span></dd> 
+                            <dd><a href="youchuang?q=%bd%ad%bb%b4%bd%ce%bf%a8&amp;class=0&amp;sort=pageView&amp;pvareaid=100834&amp;entry=116&amp;error=0">最多浏览</a></dd>                   </dl>
+               </div>
+            </div></li>                                                   <li id="handclassli" onclick="clickliSelect(4)"><a href="javascript:void(0)"><span class="fn-left" id="classsp"  >全部分类</span><i class="icon-arrow" id="classi"></i></a>
+             <div class="pop pop01" id="classli"  style="display:none;">
+               <div class="pop-content">
+                   <dl class="ullist">
+                             <dd class="selected" title="全部分类"><span>全部分类</span></dd> 
+                            <dd><a href="youchuang?q=%bd%ad%bb%b4%bd%ce%bf%a8&amp;class=1&amp;sort=New&amp;pvareaid=100834&amp;entry=116&amp;error=0" title="长文">长文</a></dd>                   </dl>
+               </div>
+            </div></li>        </ul>
+    </div>
+<script type="text/javascript" >
+    function clickliSelect(id)
+    {
+        switch (id)
+        {
+            case 1:
+                if (document.getElementById("sortli").style.display == "none")
+                    document.getElementById("sortli").style.display = "block";
+                else
+                    document.getElementById("sortli").style.display = "none";
+                
+                if (document.getElementById("typeli") != undefined)
+                    document.getElementById("typeli").style.display = "none";
+                if (document.getElementById("timeli") != undefined)
+                    document.getElementById("timeli").style.display = "none";
+                if (document.getElementById("classli") != undefined)
+                    document.getElementById("classli").style.display = "none";
+                break;
+            case 2:
+                if (document.getElementById("timeli").style.display == "none")
+                    document.getElementById("timeli").style.display = "block";
+                else
+                    document.getElementById("timeli").style.display = "none";
+
+                if (document.getElementById("sortli") != undefined)
+                    document.getElementById("sortli").style.display = "none";
+                if (document.getElementById("typeli") != undefined)
+                    document.getElementById("typeli").style.display = "none";
+                if (document.getElementById("classli") != undefined)
+                    document.getElementById("classli").style.display = "none";
+                break;
+            case 3:
+                
+                if (document.getElementById("typeli").style.display == "none")
+                    document.getElementById("typeli").style.display = "block";
+                else
+                    document.getElementById("typeli").style.display = "none";
+                
+                if (document.getElementById("sortli") != undefined)
+                    document.getElementById("sortli").style.display = "none";
+                if (document.getElementById("timeli") != undefined)
+                    document.getElementById("timeli").style.display = "none";
+                if (document.getElementById("classli") != undefined)
+                    document.getElementById("classli").style.display = "none";
+                break;
+            case 4:
+                if (document.getElementById("classli").style.display == "none")
+                    document.getElementById("classli").style.display =  "block";
+                else 
+                    document.getElementById("classli").style.display = "none";
+                
+                if (document.getElementById("sortli") != undefined)
+                    document.getElementById("sortli").style.display = "none";
+                if (document.getElementById("typeli") != undefined)
+                    document.getElementById("typeli").style.display = "none";
+                if (document.getElementById("timeli") != undefined)
+                    document.getElementById("timeli").style.display = "none";
+                break;
+        }
+    }
+    function clickopendiv()
+    {      
+        if (document.getElementById("screenul") != undefined)
+        {
+            if (document.getElementById("screenul").style.display == "none") {
+                document.getElementById("screenul").style.display = "block";
+                document.getElementById("searchcount").style.display = "none";
+            } else {
+                document.getElementById("screenul").style.display = "none";
+                document.getElementById("searchcount").style.display = "block";
+            }
+        }
+    }
+    
+    //失去焦点隐藏
+    window.onload = function () {
+        if (document.addEventListener) {
+            document.addEventListener('click', callback, false);
+        }else if(document.attachEvent)
+        {
+            document.attachEvent('onclick', callback);
+        } else
+        {
+            document.onclick = callback;
+        }
+       
+    };
+
+    function callback(evt)
+    {
+        evt = evt || window.event;
+        var dom1 = (typeof evt.target !== 'undefined') ? evt.target : evt.srcElement;
+        var sortli = document.getElementById("sortli");
+        var timeli = document.getElementById("timeli");
+        var typeli = document.getElementById("typeli");
+        var classli = document.getElementById("classli");
+        if (sortli != null) {
+            if ((dom1.id != "sortsp" && dom1.id != "sorti") && document.getElementById("sortli").style.display == "block") {
+                document.getElementById("sortli").style.display = "none";
+            }
+        }
+        if (timeli != null) {
+            if ((dom1.id != "timesp" && dom1.id != "timei") && document.getElementById("timeli").style.display == "block") {
+                document.getElementById("timeli").style.display = "none";
+            }
+        }
+        if (typeli != null) {
+            if ((dom1.id != "typesp" && dom1.id != "typei") && document.getElementById("typeli").style.display == "block") {
+                document.getElementById("typeli").style.display = "none";
+            }
+        }
+        if (classli != null) {
+            if ((dom1.id != "classsp" && dom1.id != "classi") && document.getElementById("classli").style.display == "block") {
+                document.getElementById("classli").style.display = "none";
+            }
+        }
+        
+    }
+</script>
+                
+                
+
+                
+
+                
+            </div>
+            <div class="result">
+                
+
+
+
+<div class="result-list">              
+      <dl class="list-dl">
+        <dt><a href="http://chejiahao.autohome.com.cn/info/2937310" target="_blank">售价25.58万元 中金博朗一款<em>轿</em><em>卡</em>房车横空出世</a></dt>
+        <dd>                
+            <div class="s-related-box">
+            <div class="s-first-box2">
+                <div class="img-box">
+                <a href="http://chejiahao.autohome.com.cn/info/2937310" target="_blank">
+                    <img class="fl" src="//qnwww2.autoimg.cn/youchuang/g2/M0A/31/9E/autohomecar__ChsEkFvqd9uACbEOAADBwQwwdec239.jpg?imageView2/1/w/120/h/90" alt="" width="120" height="90">
+                </a>
+                </div>                <div class="cont-box">
+                <div class="div1 font999">
+                    <span>房车时代网</span><span class="ml-20">浏览数：88</span>
+                </div>
+                <p class='p-h60' >中金博朗T90房车是采用一款<em>轿</em><em>卡</em>底盘<em>江淮</em>帅铃X330打造而成，帅铃X系列车型是<em>江淮汽车</em>早在2014年推出的定位高端的微<em>卡</em>，近年来<em>轿</em><em>卡</em>凭借高颜值、高舒适性、高安全性等逐渐被人们所...</p>
+                <div class="div2">
+                    <span class="s-c-grey fn-right">2018-11-13</span><span class="s-c-green">http://chejiahao.autohome.com.cn/info/2937310</span>
+                </div>
+                </div>
+            </div>
+            </div>                   
+        </dd>
+          </dl>
+      <dl class="list-dl">
+        <dt><a href="http://chejiahao.autohome.com.cn/info/2847405" target="_blank">轻<em>卡</em>打造的房车，驾乘舒适性如何？</a></dt>
+        <dd>                
+            <div class="s-related-box">
+            <div class="s-first-box2">
+                <div class="img-box">
+                <a href="http://chejiahao.autohome.com.cn/info/2847405" target="_blank">
+                    <img class="fl" src="//qnwww2.autoimg.cn/youchuang/g27/M04/AC/21/autohomecar__ChcCQFvIKYqALw_XAADbg3C_HUE405.png?imageView2/1/w/120/h/90" alt="" width="120" height="90">
+                </a>
+                </div>                <div class="cont-box">
+                <div class="div1 font999">
+                    <span>房车时代网</span><span class="ml-20">浏览数：370</span>
+                </div>
+                <p class='p-h60' ><em>江淮</em>把它定义为“<em>轿</em><em>卡</em>”，就可以看出这辆车有多么在意舒适性这件事。尽管这次没能试驾一下这辆中金博朗的房车，不过我们仍然可以从一些地方来分析它的舒适性到底如何。  首先从...</p>
+                <div class="div2">
+                    <span class="s-c-grey fn-right">2018-10-18</span><span class="s-c-green">http://chejiahao.autohome.com.cn/info/2847405</span>
+                </div>
+                </div>
+            </div>
+            </div>                   
+        </dd>
+          </dl>
+      <dl class="list-dl">
+        <dt><a href="http://chejiahao.autohome.com.cn/info/2842063" target="_blank">4万多就能买到的<em>江淮</em><em>轿</em>车化微<em>卡</em>，内饰超舒适，还能多拉货</a></dt>
+        <dd>                
+            <div class="s-related-box">
+            <div class="s-first-box2">
+                <div class="img-box">
+                <a href="http://chejiahao.autohome.com.cn/info/2842063" target="_blank">
+                    <img class="fl" src="//qnwww2.autoimg.cn/youchuang/g27/M03/A5/A4/autohomecar__ChcCQFvGmR2AQWgRAAZJK6l93TM076.jpg?imageView2/1/w/120/h/90" alt="" width="120" height="90">
+                </a>
+                </div>                <div class="cont-box">
+                <div class="div1 font999">
+                    <span>提加商用车</span><span class="ml-20">浏览数：926</span>
+                </div>
+                <p class='p-h60' ><em>江淮汽车</em>就制造出自己的第一台轻<em>卡</em>，时隔五十多年后的2018年，<em>江淮</em>轻<em>卡</em>总计下线300余万台。为丰富自身产品线，2016年，<em>江淮</em>又推出了窄体驾驶室版本的微<em>卡</em>，再经过两年进化后，定...</p>
+                <div class="div2">
+                    <span class="s-c-grey fn-right">2018-10-17</span><span class="s-c-green">http://chejiahao.autohome.com.cn/info/2842063</span>
+                </div>
+                </div>
+            </div>
+            </div>                   
+        </dd>
+          </dl>
+      <dl class="list-dl">
+        <dt><a href="http://chejiahao.autohome.com.cn/info/2655701" target="_blank">签约500辆 售价不超5万元 <em>江淮</em>康铃X5<em>轿</em><em>卡</em>义乌上市</a></dt>
+        <dd>                
+            <div class="s-related-box">
+            <div class="s-first-box2">
+                <div class="img-box">
+                <a href="http://chejiahao.autohome.com.cn/info/2655701" target="_blank">
+                    <img class="fl" src="//qnwww2.autoimg.cn/youchuang/g2/M08/6F/64/autohomecar__ChcCRFt4NXCAULd0AADuzjdH_Ck876.jpg?imageView2/1/w/120/h/90" alt="" width="120" height="90">
+                </a>
+                </div>                <div class="cont-box">
+                <div class="div1 font999">
+                    <span>第一商用车网</span><span class="ml-20">浏览数：1906</span>
+                </div>
+                <p class='p-h60' ><em>江淮</em><em>轿</em><em>卡</em>必将以其极具代表性的高颜值、舒适性和安全性引领国内<em>轿</em><em>卡</em>行业新风尚，为广大用户朋友带来更精彩、更智能、更舒适的美好生活！”现场还进行了康铃X5的车型讲解，看看康...</p>
+                <div class="div2">
+                    <span class="s-c-grey fn-right">2018-08-18</span><span class="s-c-green">http://chejiahao.autohome.com.cn/info/2655701</span>
+                </div>
+                </div>
+            </div>
+            </div>                   
+        </dd>
+          </dl>
+      <dl class="list-dl">
+        <dt><a href="http://chejiahao.autohome.com.cn/info/2589959" target="_blank">马路上为何只见奔驰<em>轿</em>车，却不见奔驰<em>卡</em>车？</a></dt>
+        <dd>                
+            <div class="s-related-box">
+            <div class="s-first-box2">
+                <div class="img-box">
+                <a href="http://chejiahao.autohome.com.cn/info/2589959" target="_blank">
+                    <img class="fl" src="//qnwww2.autoimg.cn/youchuang/g28/M06/3B/59/autohomecar__ChcCR1tZv22AcA3UAAHSRWR1mmo101.jpg?imageView2/1/w/120/h/90" alt="" width="120" height="90">
+                </a>
+                </div>                <div class="cont-box">
+                <div class="div1 font999">
+                    <span>兮有视频</span><span class="ml-20">浏览数：1687</span>
+                </div>
+                <p class='p-h60' ><em>江淮</em>、江铃……他们几乎占据了中国重<em>卡</em>的半壁江山，无论是商用车还是乘用车，那些国际著名品牌在制造经验和技术方面都要领先于国内不少，但乘用车在国内混得风生水起，商用车中...</p>
+                <div class="div2">
+                    <span class="s-c-grey fn-right">2018-07-26</span><span class="s-c-green">http://chejiahao.autohome.com.cn/info/2589959</span>
+                </div>
+                </div>
+            </div>
+            </div>                   
+        </dd>
+          </dl>
+      <dl class="list-dl">
+        <dt><a href="http://chejiahao.autohome.com.cn/info/2035796" target="_blank"><em>江淮</em>七月销量担当还是SUV，但<em>轿</em>车和新能源增势更猛</a></dt>
+        <dd>                
+            <div class="s-related-box">
+            <div class="s-first-box2">
+                <div class="img-box">
+                <a href="http://chejiahao.autohome.com.cn/info/2035796" target="_blank">
+                    <img class="fl" src="//qnwww2.autoimg.cn/youchuang/g19/M07/12/4A/autohomecar__wKgFWFmP6VWAEUJYAAMwBVQhpeo155.jpg?imageView2/1/w/120/h/90" alt="" width="120" height="90">
+                </a>
+                </div>                <div class="cont-box">
+                <div class="div1 font999">
+                    <span>汽车生活</span><span class="ml-20">浏览数：536</span>
+                </div>
+                <p class='p-h60' ><em>卡</em>有着举重轻重的地位，但更贴近民用的乘用车板块正在以逐步完成更全面产品布局的态势走进广大家庭中，并被消费者广泛认可。  提到<em>江淮</em>乘用车，不得不说的就是旗下产品线丰满的...</p>
+                <div class="div2">
+                    <span class="s-c-grey fn-right">2017-08-13</span><span class="s-c-green">http://chejiahao.autohome.com.cn/info/2035796</span>
+                </div>
+                </div>
+            </div>
+            </div>                   
+        </dd>
+          </dl>
+      <dl class="list-dl">
+        <dt><a href="http://chejiahao.autohome.com.cn/info/1586219" target="_blank">你没听说过一汽通用？但它真的存在</a></dt>
+        <dd>                
+            <div class="s-related-box">
+            <div class="s-first-box2">
+                <div class="img-box">
+                <a href="http://chejiahao.autohome.com.cn/info/1586219" target="_blank">
+                    <img class="fl" src="//qnwww2.autoimg.cn/youchuang/g5/M07/B1/31/autohomecar__wKjB0lkmX5KAIirIAAKXQYmvOhQ232.jpg?imageView2/1/w/120/h/90" alt="" width="120" height="90">
+                </a>
+                </div>                <div class="cont-box">
+                <div class="div1 font999">
+                    <span>每日车讯Car Daily</span><span class="ml-20">浏览数：362</span>
+                </div>
+                <p class='p-h60' ><em>江淮</em>牵手，成立第三家合资公司。那么现在问题来了，通用也是大厂，为何在中国只有上汽通用？ 其实，通用在中国也是有两家合资公司的，只是没多少人知道。 来，朋友，打开一汽的...</p>
+                <div class="div2">
+                    <span class="s-c-grey fn-right">2017-05-25</span><span class="s-c-green">http://chejiahao.autohome.com.cn/info/1586219</span>
+                </div>
+                </div>
+            </div>
+            </div>                   
+        </dd>
+          </dl>
+
+    </div>
+
+
+            </div>
+            <!--中间结果end-->
+            <!--右侧模块开始-->
+            
+            <!--右侧模块end-->
+            <div class="clear"></div>
+            <!--分页开始-->
+            
+<div class="page">
+
+</div>
+
+            <!--分页end-->
+        </div>
+        <!--右侧end-->
+        <div class="clear"></div>
+    </div>
+    <!--内容区域end-->
+    <!--相关搜索开始-->
+    
+
+    <!--相关搜索end-->
+    <!--底部搜索框开始-->
+    <div class="ss-box ss-box-bottom">
+        <form method="get" action="?" target="_self" accept-charset="gb2312" onsubmit="document.charset='gb2312'" id="souform1">
+            <div class="searchbar">
+                <input name="q" class="txt-search" type="text" autocomplete="off" value="江淮轿卡" />
+                <input type="hidden" id="entry1" name="entry" autocomplete="off" value="116" />
+                    <input type="hidden" id="searchtypecontent1" name="searchtypecontent" autocomplete="off" value="content" />
+                    <input type="hidden" id="sort1" name="sort" autocomplete="off" value="New" />
+                                <input type="hidden" id="pkw" name="pq" value="江淮轿卡">
+                <input type="hidden" id="ptime" name="pt" value="636788566502289451">
+            </div>
+            <a href="javascript:void(0);" onclick="document.getElementById('souform1').submit(); return false;" class="btn-search">搜 索</a>
+        </form>
+    </div>
+    <!--底部搜索框end-->
+    <!--滚动按钮开始-->
+    <div class="scrollbtn" id="scrollbtn"><a href="//www.autohome.com.cn/bug/default.aspx" class="feedback" target="_blank" title="反馈建议"><i class="ic_feedback"></i><span>意见反馈</span></a><a id="turntop" href="javascript:void(0)" onclick="window.scrollTo(0, 0);" class="turntop" title="返回顶部"><i class="ic_turntop"></i><span>返回顶部</span></a></div>
+    <!--滚动按钮end-->
+    <!-- 问卷表 -->
+    
+    <!-- end 问卷表 -->
+    
+        <div class="ss-footer"><p><span class="fontarial">&copy; 2004-2018 www.autohome.com.cn All Rights Reserved.</span> 汽车之家 版权所有</p></div>
+    
+<script>
+    (function() {
+        var floatHead = $('.ss-header').eq(0);
+        var floatTop  = floatHead.offset().top;
+        var floatHt   = floatHead.height();
+        var floatNext = floatHead.next();
+        $(window).on('scroll', function(e) {
+            var scrollTop = $(this).scrollTop();
+            if (scrollTop > floatTop) {
+                floatHead.css({position:'fixed',top:0,left:0,width:'100%'});
+                floatNext.css({marginTop:floatHt + 'px'});
+            } else {
+                floatHead.css({position:'static'});
+                floatNext.css({marginTop:0});
+            }
+        });
+    })();
+</script>
+
+<script>
+    (function(c){function e(A,r){A[r>>5]|=128<<(24-r%32);A[((r+64>>9)<<4)+15]=r;var B=Array(80),z=1732584193,y=-271733879,v=-1732584194,u=271733878,s=-1009589776;for(var m=0;m<A.length;m+=16){var q=z,p=y,k=v,h=u,f=s;for(var g=0;g<80;g++){if(g<16){B[g]=A[m+g]}else{B[g]=b(B[g-3]^B[g-8]^B[g-14]^B[g-16],1)}var C=n(n(b(z,5),l(g,y,v,u)),n(n(s,B[g]),d(g)));s=u;u=v;v=b(y,30);y=z;z=C}z=n(z,q);y=n(y,p);v=n(v,k);u=n(u,h);s=n(s,f)}return Array(z,y,v,u,s)}function l(f,a,h,g){if(f<20){return(a&h)|((~a)&g)}if(f<40){return a^h^g}if(f<60){return(a&h)|(a&g)|(h&g)}return a^h^g}function d(a){return(a<20)?1518500249:(a<40)?1859775393:(a<60)?-1894007588:-899497514}function n(a,h){var g=(a&65535)+(h&65535),f=(a>>16)+(h>>16)+(g>>16);return(f<<16)|(g&65535)}function b(a,f){return(a<<f)|(a>>>(32-f))}function o(h){var g=Array(),a=(1<<8)-1;for(var f=0;f<h.length*8;f+=8){g[f>>5]|=(h.charCodeAt(f/8)&a)<<(24-f%32)}return g}function j(g){var a="0123456789abcdef",h="";for(var f=0;f<g.length*4;f++){h+=a.charAt((g[f>>2]>>((3-f%4)*8+4))&15)+a.charAt((g[f>>2]>>((3-f%4)*8))&15)}return h}var i=function(f){var p=f.indexOf("?")+1,g=f.substring(0,p),a=f.substring(p),u=/([^&=]+)=?([^&]*)/g,r=[],h={},m="";a.replace(u,function(s,q,v){r.push(q)});a.replace(u,function(s,q,v){h[q]=q+"="+v});r.sort();for(var k=0;k<r.length;k++){m+=h[r[k]]+"&"}var t=m.substring(0,m.length-1);return g+t+"&_sign="+j(e(o(t),t.length*8))};c.Token={wrapURL:i}})(window);
+</script>
+<script type="text/javascript">
+    function newGuidString() {
+        return 'xxxxxxxxyxxxxyxxxxyyxxxyxxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+            var r = Math.random() * 16 | 0;
+            var v = c === 'x' ? r : (r & 0x3 | 0x8);
+            return v.toString(16);
+        });
+    }
+
+    function XY(e) {
+        e = e || window.event;
+        //Mozilla
+        if (e.pageX || e.pageY) {
+            return { x: e.pageX, y: e.pageY }
+        }
+        //IE
+        return {
+            x: e.clientX + document.body.scrollLeft - document.body.clientLeft,
+            y: e.clientY + document.body.scrollTop - document.body.clientTop
+        }
+    }
+    function GetValue(parm) {
+        var reg = new RegExp("(^|&)" + parm + "=([^&]*)(&|$)");
+        var r = location.href.substr(location.href.indexOf("\?") + 1).match(reg);
+        if (r != null) return r[2]; return null;
+    }
+
+    function r(a) {
+        var n = "";
+        for (s in a)
+            n += s + "=" + encodeURIComponent(a[s]) + "&";
+        return n
+    }
+
+    //function getLocation() {
+    //    if (navigator.geolocation) {
+    //        navigator.geolocation.getCurrentPosition(setLocation);
+    //    }
+    //}
+    //function setLocation(p) {
+    //    searchObj.lat = p.coords.latitude;
+    //    searchObj.lon = p.coords.longitude;
+
+    //    clickObj.lat = p.coords.latitude;
+    //    clickObj.lon = p.coords.longitude;
+    //}
+
+    var showType ='';
+    var manualUris = "";
+    function getContentLink() {
+        var mleft = document.getElementById("cresult");
+        if (mleft != null) {
+            var links = mleft.getElementsByTagName('a'),
+            len = links.length, i = 0;
+            for (; i < len; i++) {
+                links[i].setAttribute("data", "pageareaid:6");
+            }
+        }
+    }
+    (function(){
+        if (document.images) {
+            Sou.Autocomplate.Context.scid = "7";
+            Sou.Autocomplate.DataUri = "/Api/Suggest/search?plat=pc&chl=youchuang&q=";
+            Sou.Autocomplate.Context.ev = "106";
+        }
+    })();
+
+    var searchId = newGuid();
+    var searchObj ={
+        "count": '7',
+        "area": getCookie('area') || '',
+        "uid": getCookie('sessionid') || '',
+        "auid": getCookie('clubUserShow') || '',
+        "uri": document.URL,
+        "ref": document.referrer,
+        "adr": getCookie('sessionip') || '',
+        "istat": true,
+        "q": '江淮轿卡',
+        "pq": GetValue('pq') || '',
+        "page": '1',
+        "sort": 'New',
+        "entry": '116',
+        "scid": '7',
+        "mw": '',
+        "mcid": '',
+        
+        "pt": GetValue('pt') ? null : '',
+        "pf": 0,
+        "ev": '106',
+        "evbox": '',
+        "cost": '298',
+        "tcost":0,
+        "sid":searchId,
+        "sguid":'',
+        "ctx":'{"count":"7","new_magic":null,"info":"{}","type":"","asort":"0"}',
+        "lat":'',
+        "lon":'',
+        "qtp": '',
+        "cd": window.screen.colorDepth,
+        "sarea": getCookie('cookieCityId') || '',
+        "mid": ''
+    }
+
+    var clickObj = {
+        "scid": '7',
+        "q": '江淮轿卡',
+        "mw": '',
+        "mcid": '',
+        "uid": getCookie('sessionid') || '',
+        "auid": getCookie('clubUserShow') || '',
+        "pq": GetValue('pq') || '',
+        "sort": 'New',
+        "uri": '',
+        "anchor": '',
+        "adr": getCookie('sessionip') || '',
+        "x": 0,
+        "y": 0,
+        "page": '1',
+        "pt": GetValue('pt') || '',
+        "pf": 0,
+        "ev": '106',
+        "evbox": '',
+        "data": '',
+        "sid": searchId,
+        "sguid": '',
+        "ctx": '{"info":"{}","asort":"0"}',
+        "lat": '',
+        "lon": '',
+        //"mgid": '',
+        "seq": '',
+        "qtp": '',
+        "ih": $(window).height(),
+        "iw": $(window).width(),
+        "height": window.screen.height,
+        "width": window.screen.width,
+        "cd": window.screen.colorDepth,
+        "ch": document.body.clientHeight,
+        "cw": document.body.clientWidth,
+        "minw": document.body.style.minWidth,
+        "maxw": document.body.style.maxWidth,
+        "et": '',
+        "docid": '',
+        "doctype": '',
+        "sarea": getCookie('cookieCityId') || '',
+        "mid": '',
+        "ref": location.href
+    };
+
+    //用于处理一秒之内只会发送一次请求
+    var pre_sid = newGuid();
+    var last_sid = 0;
+    function changeSid() {
+        pre_sid = newGuid();
+        t = setTimeout("changeSid()", 1000)
+    };
+
+    (function(n,t) {
+        changeSid();
+
+        function r(a) {
+            var n = "";
+            for (s in a)
+                n += s + "=" + encodeURIComponent(a[s]) + "&";
+            return n
+        }
+        var s = new Image
+            , e = "click"
+            , c = "//sou.autohome.com.cn/stats/Click.ashx?"
+            , l = "//sou.autohome.com.cn/stats/Search.ashx?"
+            , o = "click";
+        //getLocation();
+        s.src = Token.wrapURL(l + r(n)),
+            $('body').find("a").each(function (index) {
+                $(this).on('click', function (e) {
+                    //$("#vis_info").text(window.screen.height + "-" + window.screen.width + "-"+ $(window).height() + " - " + $(window).width() + "-" + e.pageX + "-" + e.pageY);
+                    var i = $(this)[0];
+                    t.et = this.nodeName;
+                    t.x = e.pageX;
+                    t.y = e.pageY;
+                    t.uri = this.href || "";
+                    if (i.href != undefined) {
+                        var ji = $(i);
+                        t.anchor = ji.text();
+                        //t.anchor = void 0 === ji.data("title") ? ji.text() : ji.data("title");
+                        //t.data = ji.data("click") | '';
+                        t.data = ji.attr('data');
+
+                        //t.anchor = void 0 === i.data ? i.html : i.data;
+                        var s = new Image;
+                        //getLocation();
+                        s.src = Token.wrapURL(c + r(t));
+                        last_sid = pre_sid;
+                    }
+                    //过滤掉链接内部元素点击重复发送的问题
+                    else if (last_sid != pre_sid && $(i).closest('[href]').length == 0) {
+                        t.anchor = '';
+                        var s = new Image;
+                        //getLocation();
+                        s.src = Token.wrapURL(c + r(t));
+                        last_sid = pre_sid;
+                    }
+                    //e.preventDefault();
+
+                })
+            })
+    })(searchObj, clickObj);
+
+</script>
+<script type="text/javascript">
+    ; (function () {
+
+        function getCoords(elem) {
+            var box = elem.getBoundingClientRect(),
+            doc = elem.ownerDocument,
+            body = doc.body,
+            html = doc.documentElement,
+            clientTop = html.clientTop || body.clientTop || 0,
+            clientLeft = html.clientLeft || body.clientLeft || 0,
+            top = box.top + (self.pageYOffset || html.scrollTop || body.scrollTop) - clientTop,
+            left = box.left + (self.pageXOffset || html.scrollLeft || body.scrollLeft) - clientLeft
+            return { 'top': top, 'left': left };
+        };
+
+        function addEvent(elem, type, fn) {
+            elem.addEventListener ? elem.addEventListener(type, fn, false) : elem.attachEvent('on' + type, fn);
+        };
+
+        function scrollBtn(rid, sid, tid) {
+            var r_obj = document.getElementById(rid),
+                s_obj = document.getElementById(sid),
+                t_obj = document.getElementById(tid),
+                sCss = s_obj.style, tCss = t_obj.style;
+
+            var isFixed = (function () {
+
+                var outer = document.createElement('div'),
+                    inner = document.createElement('div'),
+                    result = true;
+
+                outer.style.cssText = 'position:absolute;top:200px;';
+                inner.style.cssText = 'position:fixed;top:100px;';
+
+                outer.appendChild(inner);
+                document.body.appendChild(outer);
+
+                if (inner.getBoundingClientRect &&
+                    inner.getBoundingClientRect().top == outer.getBoundingClientRect().top) result = false;
+
+                document.body.removeChild(outer);
+
+                outer = inner = null;
+
+                return result;
+
+            })();
+
+            var set = function () {
+                var st = document.documentElement.scrollTop + document.body.scrollTop,
+                    wH = document.documentElement.clientHeight,
+                    rPos = getCoords(r_obj);
+
+                if (st + wH - 48 > rPos.top + r_obj.offsetHeight) {
+                    sCss.position = 'absolute';
+                    sCss.bottom = '';
+                    sCss.top = rPos.top + r_obj.offsetHeight - 94 + 'px';
+                    if(st == 0) sCss.height = '39px';
+                    else sCss.height = '80px';
+                }
+                else {
+                    sCss.position = isFixed ? 'fixed' : 'absolute';
+                    if (st > 0) {
+                        sCss.bottom = '';
+                        sCss.top = (isFixed ? 0 : st) + wH - 150 + 'px';
+                        tCss.display = '';
+                        sCss.height = '80px';
+                    }
+                    else {
+                        sCss.height = '39px';
+                        sCss.top = '';
+                        sCss.bottom = '70px';
+                    }
+                }
+            };
+
+            setInterval(function () {
+                set();
+            }, 50);
+        };
+
+        scrollBtn('content', 'scrollbtn', 'turntop');
+    })();
+
+</script>
+
+
+<script type="text/javascript">
+    var pvTrack = function () { };
+    pvTrack.site = 9;
+    pvTrack.category =57;
+    pvTrack.subcategory =8456;
+    window._ahas_all_config = { allClick: true, allShow: false };
+</script>
+
+
+<script type="text/javascript">
+(function(doc){
+    var _as = doc.createElement('script');
+    _as.type = 'text/javascript';
+    _as.async = true;
+    _as.src = '//x.autoimg.cn/bi/mda/ahas_body.min.js?d=' + Math.floor(new Date().getTime()/864e5);
+    var s = doc.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(_as, s);
+})(document);
+</script>
+<script src="//x.autoimg.cn/bi/common/pv.min.js?v=20170612" async></script>
+
+
+<script>
+        (function () {
+            if (GetValue('_vis') != undefined) {
+                //var ma = document.createElement('script');
+                //ma.type = 'text/javascript';
+                //ma.async = true;
+                //ma.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'js/stat_vis.js';
+                //var s = document.getElementsByTagName('script')[0];
+                //s.parentNode.insertBefore(ma, s);
+
+                document.writeln("<script src=\'js/stat_vis.js\' async><\/script>");
+document.writeln("<div id=\'vis_info\' style=\'position:fixed;bottom:0;width:100%;height:30px;background-color:bisque;text-align:center;line-height:30px; \'></div>");
+                //<div id="vis_info" style="position:fixed;bottom:0;width:100%;height:30px;background-color:bisque;text-align:center;line-height:30px; "></div>
+            }
+        })();
+</script>
+
+
+
+</body>
+</html>
+
+
+
+       
+
+       
+    
+
+

@@ -1,0 +1,652 @@
+
+* { word-wrap: break-word; outline: none; }
+body { background: #FFF;}
+html, body { height: 100%;}
+html { -webkit-text-size-adjust: none; }
+body, td, input, textarea, select,
+button { color: #707070; font-size: 12px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
+body, ul, ol, li, dl, dt, dd, p, h1, h2, h3, h4, h5, h6, form, fieldset { margin: 0; padding: 0; }
+ul, ol, li { list-style-image: none; list-style-type: none; }
+h1, h2, h3, h4, h5, h6 { font-size: 12px; }
+a { color: #31b4e1; text-decoration: none; blr:expression(this.onFocus=this.blur()) }
+a:hover { color: #ec5051; text-decoration: none; }
+a img { border: none; }
+em, cite, th { font-style: normal; font-weight: normal; }
+table { border-collapse: collapse; border-spacing:0;}
+th { text-align: left; }
+input, button, select, textarea { outline: none }
+i,em{ font-style:normal;}
+i.fa { font-size: 14px; vertical-align: middle; margin-right: 4px; }
+input[type='text']:focus{ border:1px solid #62b3ff;}
+input[type='text'].error:focus{ border:1px dashed #E84C3D;}
+input[type='submit']{ outline:0 none;}
+.clearFixed:after {clear: both;content: ".";height: 0;visibility: hidden;font-size: 0;display: block;}
+.nicescroll-rails div{opacity: 0.8;margin-right: 2px;}
+
+/*
+ * 欢迎页面
+ */
+.row_card{padding:0px 8px;}
+.card_header{line-height:50px;border-bottom:1px solid #f5f5f5;padding-left:25px;font-size:18px;color:#333;position:relative;}
+.card_header:after{content: ".";position:absolute;left:10px;height:18px;width:5px;background:#3EA1E6;top:15px;color:#ffff;}
+.cardBox{height:190px;background:#ffffff;margin-left:-7px;margin-right:-7px;margin-bottom:15px;border-radius:3px;}
+.card_body{height:140px;padding:20px;overflow:hidden;}
+.card_body .card_item{width:50%;height:100px;float:left;}
+.card_body .card_item .card_tit{font-size:18px;text-align:center;line-height:45px;color:#333;}
+.card_body .card_item .card_num_weight{font-size:18px;text-align:center;line-height:45px;color:#FF0000;}
+.card_body .card_item .card_num{font-size:18px;text-align:center;line-height:45px;color:#333333;}
+					     
+
+.tl{text-align:left !important;}
+.tl input{float:left !important;}
+.tc{text-align:center !important;}
+.tr{text-align:right !important;}
+
+.clear{clear:both}
+.hide{display:none;}
+.show{display:block;}
+.black10{display:block;height:10px;}
+.black20{display:block;height:20px;}
+.black30{display:block;height:30px;}
+.black40{display:block;height:40px;}
+.black5s0{display:block;height:50px;}
+.clearFiex:after{clear:both;display:block;visibility:hidden;height:0;content:".";font-size:0}
+.width50{width:50px !important}
+.width60{width:60px !important}
+.width70{width:70px !important}
+.width80{width:80px !important}
+.width90{width:90px !important}
+.width100{width:100px !important}
+.width120{width:120px !important}
+.width140{width:140px !important}
+.width150{width:150px !important}
+.width160{width:160px !important}
+.width170{width:170px !important}
+.width180{width:180px !important}
+.width190{width:190px !important}
+.width200{width:200px !important}
+.width210{width:210px !important}
+.width220{width:220px !important}
+.width230{width:230px !important}
+.width240{width:240px !important}
+.width250{width:250px !important}
+.width300{width:300px !important}
+.width350{width:350px !important}
+.width400{width:400px !important}
+.width450{width:450px !important}
+.width500{width:500px !important}
+.width550{width:550px !important}
+.width600{width:600px !important}
+.width650{width:650px !important}
+.width700{width:700px !important}
+.width750{width:750px !important}
+.width800{width:800px !important}
+
+.datetimepicker{width:210px !important;background:url(../img/common/days.png) right center no-repeat #ffffff !important;background-size:20px !important;}
+
+.mainPage{padding-top:90px;padding-left:10px;padding-right:10px;padding-bottom:80px;position:relative;}
+
+.page_body{margin-top:10px;background:#fff;border-radius:4px;position:relative;}
+.page_footer{position:absolute;bottom:0px;left:10px;right:10px;height:60px;background:#ffffff;padding:15px;box-shadow: 0px 1px 10px 5px rgba(0, 0, 0, 0.05);}
+/*
+ * 当前位置  page_header
+ */
+ .page_header{background:#fff;height:50px;border-radius:3px;border:1px solid #eeedf2;background-size:20px;padding-left:15px;}
+ .page_header a{color:#333333;line-height:50px;text-decoration:none;font-size:16px;}
+ .page_header span{padding-left:5px;padding-right:5px;}
+
+
+
+/*
+ * 首页卡片
+ */
+.cardFooter{text-align:right;background:#fff;height:50px;border-radius:3px;border:1px solid #eeedf2;background-size:20px;padding-left:15px;padding-right:15px;}
+.cardFooter span{margin-left:20px;color:#333333;line-height:50px;text-decoration:none;font-size:16px;}
+/*
+ * 检索区域
+ */
+.pageSearch{padding-bottom:6px;padding-left:15px;padding-right:15px;}
+.page_body .pageSearch:first-child{padding-top:15px;}
+.page_body .pageSearch .btn{margin-right:10px;}
+.page_body .pageSearch{padding-bottom:10px !important;margin-bottom:0px;}
+/*
+ * 显示表格  show_table
+ */
+
+
+
+/*
+ * 表格类表单   form_table
+ */
+.form_table thead tr{background:rgba(62,162,230,1);text-align:center;color:#fff;}
+.form_table thead tr th{text-align:center;font-size:14px !important;padding:10px 10px !important;border-bottom:0px !important;}
+.form_table tbody td{text-align:left;color:#333333;}
+.form_table tbody td input[type='text'],.form_table tbody td input[type='email']{margin:0 auto;padding:4px 8px;height:28px;border-radius:2px;margin-right:5px;}
+
+.table_link{color:#1B5BFF;text-decoration:underline;margin-left:10px;margin-right:10px;}
+.table_dange{color:#CC0000;text-decoration:underline;margin-left:10px;margin-right:10px;}
+
+
+
+
+/*
+ *  btn-primary
+ */
+.btn-null-primary{background-color:#fff !important;border-color:rgba(62,162,230,1) !important;color:rgba(62,162,230,1) !important;}
+
+
+
+/*
+ * 检索
+ */
+.form-inline .form-group{margin-right:30px;display: inline-block !important;}
+.form-inline .form-group label{font-weight:400;color:#333;}
+#layerMain .form-inline{padding-left:50px;padding-right:50px;padding-top:10px;padding-bottom:15px;}
+#layerMain .form-inline .form-control {
+    display: inline-block !important;
+    width: auto !important;
+    vertical-align: middle !important;
+}
+
+/*
+ * 翻页
+ */
+.PageBox{width:100%;margin: 0 auto;text-align:center;position:relative;padding-top:10px;padding-bottom:10px;}
+.PageBox ul{padding:0px;margin:0px;color:rgba(62,162,230,1);}
+.PageBox ul li a{color:rgba(62,162,230,1);}
+.PageBox ul li a.active{background:rgba(62,162,230,1);color:#ffffff;}
+.pageSelect span{padding:6px 10px 5px 10px !important;}
+.pageInput span{padding:3px 10px !important;}
+
+/*
+ * 分词
+ */
+.fc_box{padding:15px;}
+.fc_header{height:30px;border-bottom:1px solid rgba(204,204,204,1);line-height:30px;font-size:16px;color:rgba(51,51,51,1);}
+.fc_body{padding:10px 10px;}
+.fc_body .checkbox-inline{margin-left:0px !important;padding-right:30px;line-height:30px;}
+.fc_body .checkbox-inline input[type='checkbox']{margin-top:9px !important;}
+.fc_line{padding-bottom:20px;}
+/*
+ * 普通表单    formBox
+ */
+.formBox{padding:15px;position:relative;}
+.formBox .form-control:first-child{margin-top:0px !important;}
+.form-control{height:30px;border-radius:2px;padding:4px 12px;}
+.form-group{position:relative;min-height:30px;}
+.form-group-submit{padding-left:150px;}
+.control-label{padding-right:0!important;color:#333;font-weight:400}
+.control-label s{padding-right:5px;color:red;text-decoration:none}
+.control-label{font-size:14px;position: absolute !important;top:0px;left:10px;margin-bottom:0;padding-top:7px;padding-right:15px;width:125px !important;min-height:1px;color:#333;text-align:right;}
+.control-counten{padding-left:150px;padding-right:150px;position:relative;display:block;min-height:1px;font-size:14px}
+.control-counten span.control-url{padding:4px 10px;padding-left:10px;height:32px;border:1px dashed #62b3ff;border-radius:2px;background:#f5faff;-webkit-box-shadow:0 2px 3px 0 rgba(0,0,0,.1) inset;-moz-box-shadow:0 2px 3px 0 rgba(0,0,0,.1) inset;box-shadow:0 2px 3px 0 rgba(0,0,0,.1) inset;color:#666;text-shadow:0 1px 2px rgba(0,0,0,.1);line-height:32px}
+.control-help-info{float:left;padding-top:10px;padding-left:15px;color:#909090;font-size:12px}
+.control-error{position:relative;float:left;padding-top:7px;padding-right:15px;padding-left:15px;min-height:1px;color:#999;font-size:12px}
+.control-counten label{float:left;padding-top:7px!important;padding-right:20px;min-width:100px}
+.control-counten .floatLable{float:left;margin-right:15px}
+.control-counten .thumbnail{position:relative;margin-bottom:0}
+.control-counten p{margin:0;color:#999;line-height:32px}
+
+.formBoxPageLayer{padding-top:20px;}
+.pageLayer .control-label{height:40px;left:0px;width:140px !important;line-height:30px;}
+.pageLayer .control-counten{padding-top:5px;}
+.pageLayer .form-text .control-counten{padding-left:40px !important;padding-right:40px !important;}
+.pageLayer .form-text textarea{background:#f5f5f5;border:1px solid #eeeeee;}
+.pageLayer .form-btn .control-counten{padding-left:20px !important;padding-right:20px !important;text-align:center;}
+/*
+ * 开关
+ */
+.control-counten{position:relative;}
+
+
+/*
+ * 弹窗类表单    layer_form
+ */
+
+
+
+/*
+ * 提交操作按钮    set_Btn
+ */
+
+
+.search_checkbox{
+    margin: 0;
+    padding: 0;
+    margin-left:5px;
+    width:20px;
+    position:relative;
+    display: inline-block;
+    height: 20px;
+    padding-top:7px;
+}
+.search_checkbox input[type=checkbox]{
+    position: absolute;
+    width:60px;
+    height:20px;
+    top:4px;
+    left:0px;
+    opacity:0;
+    cursor:pointer;
+    z-index:100;
+    display:block;
+}
+.search_checkbox label{
+    cursor: pointer;
+    height: 20px;
+    border-radius: 15px;
+    display: inline-block;
+    background-color:#cccccc;
+    width: 30px;
+    text-indent: -99999px;
+    position: relative;
+    min-width:40px;
+}
+.search_checkbox label::before {
+    content: '';
+    display:inline-block;
+    background-color: white;
+    height:16px;
+    width: 16px;
+    position: absolute;
+    top: 2px;
+    left: 2.5px;
+    border-radius:11px;
+    transition:0.3s;
+}
+.search_checkbox input:checked + label {
+  background: #3EA2E6;
+}
+.search_checkbox input:checked + label:before {
+  left: calc(100% - 2.5px);
+  transform: translateX(-100%);
+}
+.search_checkbox label:active:before{
+    width:20px;
+}
+
+
+
+
+
+
+/*
+ * 链接禁用
+ * 
+ */
+.table_disable{color:rgba(153,153,153,1);text-decoration:underline;margin-left:10px;margin-right:10px;}
+
+/*
+ * 按钮组，表格的上边距
+ * 
+ */
+.set_margin{margin-top:15px;}
+/*
+ * 上边距
+ * 
+ */
+ .set_topmargin25{margin-top:25px!important;}
+ .set_topmargin75{margin-top:75px;}
+ .set_topmargin70{margin-top:70px;}
+
+/*
+ * 文字与按钮之间的间距
+ * 
+ */
+.set_margin20{margin-right:20px!important;}
+/*
+
+
+ * 网政问顾 > 问题审核按钮被按下的样式
+ * 
+ */
+.set_btn_focus button:focus{
+	color: white!important;
+	background:rgba(62,162,230,1)!important; 
+	font-size: 12px!important; 
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/*
+ * 表单中全部的input好像被覆盖了，都靠右，设置一个居中
+ * 
+ */
+ .set_center{
+ 	margin:auto!important;
+ }
+ .set_right{
+ 	float:right!important;
+ }
+ .set_left{
+        float:left!important;
+ }
+/*
+ * 附件
+ * 
+ */
+ .fileinput-button {
+        position: relative;
+        display: inline-block;
+        overflow: hidden;
+        background:rgba(255,255,255,1)!important;
+        border:0px;
+        color:rgba(75,110,241,1);
+        outline:none;
+ }
+
+.fileinput-button input{
+        position:absolute;
+        right: 0px;
+        top: 0px;
+        opacity: 0;
+        -ms-filter: 'alpha(opacity=0)';
+        font-family:MicrosoftYaHei;
+        color:rgba(75,110,241,1);
+
+}
+
+/*
+ * text-indent
+ * 
+ */
+.set_textindent{
+        text-indent:3em;
+}
+.set_textindent1{
+        text-indent:1em;
+}
+/*
+ * textarea
+ * 
+ */
+ .set_textarea{
+        width:60%;
+        height:154px;
+        background:rgba(227,227,227,1);
+ }
+ /*
+ * 研判报告模板
+ * 
+ */
+ .set_p1{
+        
+        font-size:24px;
+        font-family:MicrosoftYaHei;
+        color:rgba(51,51,51,1);
+        line-height:24px;
+        margin-top:34px!important;      
+ }
+.set_p2{
+        width:60%;
+        font-size:18px;
+        font-family:MicrosoftYaHei;
+        color:rgba(51,51,51,1);
+        line-height:47px;
+        margin-top:67px!important; 
+        text-indent: 2em;    
+ }
+ .set_topmargin45{margin-top:45px!important;}
+ /*
+ * 网政问顾 
+ * 
+ */
+ .btn-green-primary{background-color:rgba(76,187,159,1) !important;border-color:rgba(76,187,159,1) !important;color:rgba(255,255,255,1) !important;}
+ .width240{width:240px !important}
+ .width195{width:195px !important}
+ .set_circle{
+        display:inline-block;
+        width:16px;
+        height:16px;
+        margin-left:15px;
+        margin-right:10px;
+        border-radius:50%;
+        vertical-align:middle;
+
+}
+.green_circle{
+  background-color:green!important;
+}
+.yellow_circle{
+ background:rgba(255,153,0,1)!important;
+}
+.red_circle{
+ background:rgba(255,0,0,1)!important;
+}
+.set_checkbox{
+        width:16px!important;
+        height:16px!important;
+        vertical-align:middle;
+        margin-top:0px!important;
+}
+.set_marginleft40{margin-left:40px!important;}
+.set_topmargin40{margin-top:40px!important;}
+.set_toppadding25{padding-top:25px!important;}
+/*
+ * 全部办件
+ * 
+ */
+ .set_p3{
+    display:inline-block;
+    height:22px;
+    font-size:20px;
+    font-family:MicrosoftYaHei;
+    color:rgba(51,51,51,1);
+    line-height:22px;
+ }
+ .set_p3 span{
+    color:rgba(254, 14, 14, 1);
+    font-size:24px;
+ }
+ /*
+ * 分析研判
+ * 
+ */
+.set_p4{
+    display:inline-block;
+    height:18px;
+    font-size:18px;
+    font-family:MicrosoftYaHei;
+    color:rgba(51,51,51,1)!important;
+    line-height:18px;
+}
+.set_p5{
+    height:19px;
+    font-size:18px;
+    font-family:MicrosoftYaHei;
+    color:rgba(153,153,153,1);
+    line-height:19px;
+    display:inline-block;
+    padding-left:130px;
+}
+.set_p6{
+    height:17px;
+    font-size:16px;
+    font-family:MicrosoftYaHei;
+    color:rgba(51,51,51,1);
+    line-height:47px;
+    display:inline-block;
+    padding-left:130px;
+}
+/*惠民政策*/
+.btn-red-primary{background-color:red !important;border-color:red !important;color:rgba(255,255,255,1) !important;}
+.mybage{
+    color:red!important;
+    background-color:white!important;
+    border:1px solid red;
+    display:inline-block;
+    position:absolute;
+    top:20px;
+    left:280px;
+
+}
+/*新建通知*/
+.notice_table{
+   margin-top:50px;
+    margin-left:100px;
+}
+.notice_table tr{
+    padding-bottom:45px;
+}
+.notice_table td{
+    text-align:left;
+    vertical-align: text-top!important;
+}
+.height180{
+    height:180px!important;
+
+}
+.width970{
+    width:970px!important;
+}
+.notice_table p{
+    height:18px;
+    font-size:18px;
+    font-family:MicrosoftYaHei;
+    color:rgba(51,51,51,1);
+    line-height:18px;
+}
+
+.set_marginleft20{margin-left:20px!important;}
+
+.notice_table_special{
+    width:970px!important;
+    height:auto;
+    border:1px solid rgba(153,153,153,1)!important;
+    padding-top:10px;
+    padding-left:15px;
+}
+
+.set_newtree span{
+    font-size:16px;
+    font-family:MicrosoftYaHei;
+    color:rgba(102,102,102,1);
+    line-height:47px;
+
+}
+.set_newtree li{
+    display:block;
+    margin-top:23px!important;
+}
+.set_newtree{
+   background:rgba(255,255,255,1)!important;
+   width:970px!important;
+   height:850px!important;
+   border:0px!important;
+   margin-top:-23px!important;
+   padding:0px!important;
+
+}
+/*一级权限管理*/
+.power_manage_tree{
+    width:auto!important;
+    height:auto!important;
+    text-align:center!important;
+    overflow:hidden!important;
+    margin:0px!important;
+    padding-left:50px!important;
+
+}
+.power_manage1_p{
+    height:18px;
+    font-size:18px;
+    font-family:MicrosoftYaHei;
+    color:rgba(51,51,51,1);
+    line-height:18px;
+    text-align:left;
+    padding-left:20px;
+}
+.power_manage1_tree{
+   width:100%;
+}
+/*弹窗上传文件*/
+.set_file_upload{
+    display:inline-block;position:relative;overflow: hidden;vertical-align:middle;
+}
+.set_file_upload input{
+    position:absolute;top:0;left:0;font-size:34px; opacity:0
+}
+/*上传的图片*/
+.fileList_img{
+    margin-left:150px;margin-top:20px;
+}
+.fileList_img img{
+    display：inline-block;width：150px;height:150px;
+}
+/*管理渠道改为表格*/
+.table_manage_channel{
+    width:90%!important;
+    margin-left:85px;
+    margin-right:85px;
+}
+.table_manage_channel td{
+    width:15%;
+    border:0px!important;
+}
+/*修改密码*/
+.ch_password_cont{
+    width:400px;height:350px;margin-top:40px;
+}
+.ch_password_cont div{
+    margin-bottom:20px;
+}
+.ch_password_cont div input{
+    border-radius: 3px;
+    width: 200px;
+    border: 1px solid #dddddd;
+    height: 30px;
+    line-height: 30px;
+    color: #666666;
+    font-size: 16px;
+    padding: 10px;
+}
+.ch_password_cont div:nth-of-type(4){
+    border-radius: 3px;
+    width: 100px;
+    background: rgba(64,162,233,1);
+    border: 0px;
+    height: 30px;
+    color: #ffffff;
+    font-size: 16px;
+    text-align:center;
+    line-height:30px;
+    margin-left:80px;
+}
+/*department_list页面调整*/
+.control-counten_fix{
+    padding-left:50px;
+    padding-right:50px;
+}
+.bagenew{
+    position:relative;
+}
+.bagenew .badge{
+    background:none;
+    color:#ff0000;
+    position:absolute;
+    left:55px;
+    top:-10px;
+}
+/*所有页面加统计数量*/
+.counting_num{
+    position:absolute;
+    right:10px;
+    bottom:20px;
+    color:rgba(62,162,230,1);
+}
+/*面对面预约新增两个页面*/
+.add-form-group .control-label{
+    left:15px;
+    text-align:left;
+    font-weight:bold;
+}
+.add-form-group .control-counten{
+    padding-left:120px;
+}
+
+/*附件删除按钮*/
+.hoverhidebutton{
+    height:20px;
+    width:20px;
+    display:inline-block;
+    margin-left:-10px;
+    margin-right:10px;
+}

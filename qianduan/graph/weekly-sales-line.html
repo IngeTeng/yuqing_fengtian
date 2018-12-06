@@ -1,0 +1,29 @@
+<html>
+  <head>        
+    <title>My First chart using FusionCharts XT</title>         
+    <script type="text/javascript" src="FusionCharts/FusionCharts.js">
+    </script>
+  </head>   
+  <body>     
+    <div id="chartContainer1">FusionCharts XT will load here!</div> 
+	<div id="chartContainer2">FusionCharts XT will load here!</div> 
+	<div id="chartContainer3">FusionCharts XT will load here!</div>          
+    <script type="text/javascript">         
+      var myChart1 = new FusionCharts( "FusionCharts/Line.swf", 
+      "myChartId1", "400", "300", "0" );
+      myChart1.setXMLUrl("1/Data_column_1.xml");
+      myChart1.render("chartContainer1"); 
+	  
+	  
+	  var myChart2 = new FusionCharts( "FusionCharts/Line.swf", 
+      "myChartId2", "400", "300", "0" );
+      myChart2.setXMLUrl("1/Data_column_2.xml");
+      myChart2.render("chartContainer2"); 
+	  
+	  var myChart3 = new FusionCharts( "FusionCharts/Line.swf", 
+      "myChartId3", "400", "300", "0" );
+      myChart3.setXMLUrl("1/Data_column_3.xml");
+      myChart3.render("chartContainer3"); 
+    </script>      
+  </body> 
+</html>

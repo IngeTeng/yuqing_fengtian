@@ -1,0 +1,14 @@
+
+/*
+ * 登录
+ */
+.text-center{text-align:center;}
+.loginBj {position: fixed;_position: absolute;top: 0;left: 0;height: 100%;width: 100%;min-width: 1000px;z-index: -10;background-position: center 0;background-repeat: no-repeat;background-size: cover;-webkit-background-size: cover;-o-background-size: cover;zoom: 1;background-color: rgb(64, 64, 64);background-image: url(../img/login/loginBg.png);}
+.loginBox{width:424px;position:absolute;z-index:200;left:50%;margin-left:-212px;top:50%;margin-top:-225px;}
+.loginHeader{font-size:30px;line-height:47px;color:#ffffff;text-align:center;}
+.loginSub{font-size:18px;line-height:47px;color:#ffffff;text-align:center;}
+.loginForm{width:340px;height:270px;background:rgba(255,255,255,1);border-radius:5px;margin-top:20px;padding:36px;}
+.loginForm_tit{text-align:center;height:47px;font-size:30px;font-family:SegoeUI;color:rgba(44,123,211,1);line-height:47px;padding-bottom:10px;}
+.login_line{height:50px;padding:10px 0px;position:relative;}
+.login_line input{border-radius:3px;width:320px;border:1px solid #dddddd;height:30px;line-height:30px;color:#666666;font-size:16px;padding:10px;}
+.login_line button{border-radius:3px;width:208px;background:rgba(64,162,233,1);border:0px;height:50px;color:#ffffff;font-size:16px;padding:10px;}

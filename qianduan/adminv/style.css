@@ -1,0 +1,151 @@
+/**
+ * 微普科技 WiiPu Tech
+ *
+ * @version       v0.01
+ * @create time   2011-5-16
+ * @update time   
+ * @author        jiangting
+ * @copyright     Copyright (c) 微普科技 WiiPu Tech Inc. (http://www.wiipu.com)
+ * @informaition  
+ */
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:宋体;
+	font-size:12px;
+	text-align:center;
+}
+img{
+	border:0;
+}
+a{
+	text-decoration:none;
+}
+#content{
+	margin:0 auto;
+	width:960px;
+	text-align:left;
+}
+#content #login{
+	position:relative;
+	top:70px;
+	left:11px;
+	height:602px;
+}
+#content #login .loginpic{
+	position:absolute;
+	top:40px;
+}
+#content #login .loginpic2{
+	position:absolute;
+	top:117px;
+}
+#content #login .loginpic3{
+	position:absolute;
+	left:597px;
+	width:296px;
+	height:494px;
+	background-image:url('images/mobile.gif');
+	background-repeat:no-repeat;
+}
+#content #login .loginpic3 .mid{
+	margin-top:119px;
+	margin-left:29px;
+	font-size:14px;
+	color:#FFF;
+}
+#content #login .loginpic3 .mid p{
+	margin-top:15px;
+}
+#content #login .loginpic4{
+	position:absolute;
+	width:601px;
+	height:29px;
+	top:314px;
+	background-image:url('images/service.gif');
+	background-repeat:no-repeat;
+}
+#content #login .loginpic4 span.sp1{
+	font-size:16px;
+	color:#FFFFFF;
+	line-height:29px;
+	margin-left:16px;
+}
+#content #login .loginpic4 span.sp2{
+	line-height:29px;
+	margin-left:55px;	
+}
+#content #login .loginpic4 span.sp2 a{
+	color:#000;
+}
+.loginpic3 .mid p .txt{
+	width:102px;
+	height:23px;
+	background-color:#D7E4FC;
+	border:0;
+	line-height:23px;
+}
+.loginpic3 .mid p .txt1{
+	width:47px;	
+}
+.mid p.code{
+	position:relative;
+	left:124px;
+	top:-38px;
+	width:60px;
+	background-color:#8BC8E7;
+}
+.mid p.btn{
+	margin-top:43px;
+	margin-left:12px;
+}
+.mid p span{
+	margin-left:16px;
+}
+#login #login .wiipupic{
+	position:absolute;
+	top:609px;
+	left:791px;
+	height:32px;
+}
+#pic{
+	margin:0 auto;
+	width:335px;
+	background:url('images/picbg1.gif') repeat-x;
+	height:200px;
+	padding:13px;
+}
+#pic #content1{
+	background:url('images/picbg2.gif') repeat-x;
+	height:332px;
+	border:1px solid #C4D9EB;
+}
+#pic #content1 h1{
+	height:48px;
+	line-height:48px;
+	color:#000;
+	font-size:14px;
+}
+#pic #content1 #intro{
+	margin-top:10px;
+}
+#pic #content1 #intro p input{
+	height:22px;
+}
+#pic #content1 .point{
+	text-align:left;
+	margin-left:54px;
+}
+#pic #content1 #intro p input.button{
+	background:url('images/upload1.gif') no-repeat;
+	height:22px;
+	width:43px;
+	border:0px;
+	color:#FFF;
+}
+#pic #content1 #intro p.important{
+	margin-top:10px;
+	color:#ff0000;
+}

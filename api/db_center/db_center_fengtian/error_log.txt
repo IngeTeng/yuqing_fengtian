@@ -1,0 +1,2 @@
+[01-Nov-2018 22:49:34 PRC] PHP Warning:  filesize(): stat failed for D:/wwwroot/yuqing_fengtian.test.com/api/db_center/db_center_fengtian/log/2018_11_01 in D:\wwwroot\yuqing_fengtian.test.com\api\db_center\db_center_fengtian\include\log.php on line 94
+[01-Nov-2018 22:49:34 PRC] PHP Warning:  file_put_contents(D:/wwwroot/yuqing_fengtian.test.com/api/db_center/db_center_fengtian/log/2018_11_01): failed to open stream: No such file or directory in D:\wwwroot\yuqing_fengtian.test.com\api\db_center\db_center_fengtian\include\log.php on line 99

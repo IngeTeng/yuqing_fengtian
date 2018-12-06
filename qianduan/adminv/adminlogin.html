@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <title> 管理员登录 - WiiPu网站管理平台 </title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="author" content="Jiangting@WiiPu -- http://www.wiipu.com" />
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+ </head>
+ <body>
+	<div id="content">
+		<div id="login">
+			<div class="loginpic"><img src="http://112.124.3.197:8020/stock/user/images/logo.jpg?v=2" height="130" alt="wiipu" style="margin-top:-50px;"/></div>
+			<div class="loginpic2"><img src="images/banner.gif" width="940" height="183" alt="" /></div>
+			<div class="loginpic3">
+				<div class="mid">
+				<form  id="loginform" action="adminlogin_do.php" method="post">
+					<p>帐　号：<input class="txt" type="text" name="name"/></p>
+					<p>密　码：<input class="txt" type="password" name="pwd"/></p>
+					<p>验证码：<input class="txt txt1" type="text" name="code"/></p>
+					<p class="code"><img src="adminlogincode.php" height="24" width="60" alt="没看到图片请刷新页面"/></p>
+					<p class="btn"><input type="image" src="images/submit.gif" onClick="return checkInput();"/>　<input type="image" src="images/reset.gif" onClick="this.form.reset();return false;"/></p>
+					<script type="text/javascript">
+						function checkInput(){
+							var form=document.getElementById('loginform');
+							if(form.name.value=="")
+							{
+								alert('帐号不能为空');
+								form.name.focus();
+								return false;
+							}
+							if(form.pwd.value=="")
+							{
+								alert('密码不能为空')
+								form.pwd.focus();
+								return false;
+							}
+							if(form.code.value=="")
+							{
+								alert('验证码不能为空');
+								form.code.focus();
+								return false;
+							}
+						}
+					</script>
+				</form>
+				</div>
+			</div>
+			<div class="loginpic4">
+				<span class="sp1">芝麻舆情&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+				<span class="sp2">Designed & Developed By <a href="http://www.wiipu.com" target="_blank">西安芝麻开花网络科技有限公司</a></span>
+			</div>
+		</div>
+	</div>
+ </body>
+</html>

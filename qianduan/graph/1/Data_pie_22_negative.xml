@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf8'?>
+<chart caption='舒淇--分类统计图--负面' xAxisName='日期' yAxisName='文章数' numberSuffix='篇'>
+<set label='论坛' value='2' />
+<set label='微博' value='1' />
+</chart>
